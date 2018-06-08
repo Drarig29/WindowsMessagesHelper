@@ -1,0 +1,5022 @@
+[
+  {
+    "hex": "0000",
+    "dec": "0",
+    "name": "WM_NULL"
+  },
+  {
+    "hex": "0001",
+    "dec": "1",
+    "name": "WM_CREATE"
+  },
+  {
+    "hex": "0002",
+    "dec": "2",
+    "name": "WM_DESTROY"
+  },
+  {
+    "hex": "0003",
+    "dec": "3",
+    "name": "WM_MOVE"
+  },
+  {
+    "hex": "0005",
+    "dec": "5",
+    "name": "WM_SIZE"
+  },
+  {
+    "hex": "0006",
+    "dec": "6",
+    "name": "WM_ACTIVATE"
+  },
+  {
+    "hex": "0007",
+    "dec": "7",
+    "name": "WM_SETFOCUS"
+  },
+  {
+    "hex": "0008",
+    "dec": "8",
+    "name": "WM_KILLFOCUS"
+  },
+  {
+    "hex": "000a",
+    "dec": "10",
+    "name": "WM_ENABLE"
+  },
+  {
+    "hex": "000b",
+    "dec": "11",
+    "name": "WM_SETREDRAW"
+  },
+  {
+    "hex": "000c",
+    "dec": "12",
+    "name": "WM_SETTEXT"
+  },
+  {
+    "hex": "000d",
+    "dec": "13",
+    "name": "WM_GETTEXT"
+  },
+  {
+    "hex": "000e",
+    "dec": "14",
+    "name": "WM_GETTEXTLENGTH"
+  },
+  {
+    "hex": "000f",
+    "dec": "15",
+    "name": "WM_PAINT"
+  },
+  {
+    "hex": "0010",
+    "dec": "16",
+    "name": "WM_CLOSE"
+  },
+  {
+    "hex": "0011",
+    "dec": "17",
+    "name": "WM_QUERYENDSESSION"
+  },
+  {
+    "hex": "0012",
+    "dec": "18",
+    "name": "WM_QUIT"
+  },
+  {
+    "hex": "0013",
+    "dec": "19",
+    "name": "WM_QUERYOPEN"
+  },
+  {
+    "hex": "0014",
+    "dec": "20",
+    "name": "WM_ERASEBKGND"
+  },
+  {
+    "hex": "0015",
+    "dec": "21",
+    "name": "WM_SYSCOLORCHANGE"
+  },
+  {
+    "hex": "0016",
+    "dec": "22",
+    "name": "WM_ENDSESSION"
+  },
+  {
+    "hex": "0018",
+    "dec": "24",
+    "name": "WM_SHOWWINDOW"
+  },
+  {
+    "hex": "0019",
+    "dec": "25",
+    "name": "WM_CTLCOLOR"
+  },
+  {
+    "hex": "001a",
+    "dec": "26",
+    "name": "WM_WININICHANGE"
+  },
+  {
+    "hex": "001b",
+    "dec": "27",
+    "name": "WM_DEVMODECHANGE"
+  },
+  {
+    "hex": "001c",
+    "dec": "28",
+    "name": "WM_ACTIVATEAPP"
+  },
+  {
+    "hex": "001d",
+    "dec": "29",
+    "name": "WM_FONTCHANGE"
+  },
+  {
+    "hex": "001e",
+    "dec": "30",
+    "name": "WM_TIMECHANGE"
+  },
+  {
+    "hex": "001f",
+    "dec": "31",
+    "name": "WM_CANCELMODE"
+  },
+  {
+    "hex": "0020",
+    "dec": "32",
+    "name": "WM_SETCURSOR"
+  },
+  {
+    "hex": "0021",
+    "dec": "33",
+    "name": "WM_MOUSEACTIVATE"
+  },
+  {
+    "hex": "0022",
+    "dec": "34",
+    "name": "WM_CHILDACTIVATE"
+  },
+  {
+    "hex": "0023",
+    "dec": "35",
+    "name": "WM_QUEUESYNC"
+  },
+  {
+    "hex": "0024",
+    "dec": "36",
+    "name": "WM_GETMINMAXINFO"
+  },
+  {
+    "hex": "0026",
+    "dec": "38",
+    "name": "WM_PAINTICON"
+  },
+  {
+    "hex": "0027",
+    "dec": "39",
+    "name": "WM_ICONERASEBKGND"
+  },
+  {
+    "hex": "0028",
+    "dec": "40",
+    "name": "WM_NEXTDLGCTL"
+  },
+  {
+    "hex": "002a",
+    "dec": "42",
+    "name": "WM_SPOOLERSTATUS"
+  },
+  {
+    "hex": "002b",
+    "dec": "43",
+    "name": "WM_DRAWITEM"
+  },
+  {
+    "hex": "002c",
+    "dec": "44",
+    "name": "WM_MEASUREITEM"
+  },
+  {
+    "hex": "002d",
+    "dec": "45",
+    "name": "WM_DELETEITEM"
+  },
+  {
+    "hex": "002e",
+    "dec": "46",
+    "name": "WM_VKEYTOITEM"
+  },
+  {
+    "hex": "002f",
+    "dec": "47",
+    "name": "WM_CHARTOITEM"
+  },
+  {
+    "hex": "0030",
+    "dec": "48",
+    "name": "WM_SETFONT"
+  },
+  {
+    "hex": "0031",
+    "dec": "49",
+    "name": "WM_GETFONT"
+  },
+  {
+    "hex": "0032",
+    "dec": "50",
+    "name": "WM_SETHOTKEY"
+  },
+  {
+    "hex": "0033",
+    "dec": "51",
+    "name": "WM_GETHOTKEY"
+  },
+  {
+    "hex": "0037",
+    "dec": "55",
+    "name": "WM_QUERYDRAGICON"
+  },
+  {
+    "hex": "0039",
+    "dec": "57",
+    "name": "WM_COMPAREITEM"
+  },
+  {
+    "hex": "003d",
+    "dec": "61",
+    "name": "WM_GETOBJECT"
+  },
+  {
+    "hex": "0041",
+    "dec": "65",
+    "name": "WM_COMPACTING"
+  },
+  {
+    "hex": "0044",
+    "dec": "68",
+    "name": "WM_COMMNOTIFY"
+  },
+  {
+    "hex": "0046",
+    "dec": "70",
+    "name": "WM_WINDOWPOSCHANGING"
+  },
+  {
+    "hex": "0047",
+    "dec": "71",
+    "name": "WM_WINDOWPOSCHANGED"
+  },
+  {
+    "hex": "0048",
+    "dec": "72",
+    "name": "WM_POWER"
+  },
+  {
+    "hex": "0049",
+    "dec": "73",
+    "name": "WM_COPYGLOBALDATA"
+  },
+  {
+    "hex": "004a",
+    "dec": "74",
+    "name": "WM_COPYDATA"
+  },
+  {
+    "hex": "004b",
+    "dec": "75",
+    "name": "WM_CANCELJOURNAL"
+  },
+  {
+    "hex": "004e",
+    "dec": "78",
+    "name": "WM_NOTIFY"
+  },
+  {
+    "hex": "0050",
+    "dec": "80",
+    "name": "WM_INPUTLANGCHANGEREQUEST"
+  },
+  {
+    "hex": "0051",
+    "dec": "81",
+    "name": "WM_INPUTLANGCHANGE"
+  },
+  {
+    "hex": "0052",
+    "dec": "82",
+    "name": "WM_TCARD"
+  },
+  {
+    "hex": "0053",
+    "dec": "83",
+    "name": "WM_HELP"
+  },
+  {
+    "hex": "0054",
+    "dec": "84",
+    "name": "WM_USERCHANGED"
+  },
+  {
+    "hex": "0055",
+    "dec": "85",
+    "name": "WM_NOTIFYFORMAT"
+  },
+  {
+    "hex": "007b",
+    "dec": "123",
+    "name": "WM_CONTEXTMENU"
+  },
+  {
+    "hex": "007c",
+    "dec": "124",
+    "name": "WM_STYLECHANGING"
+  },
+  {
+    "hex": "007d",
+    "dec": "125",
+    "name": "WM_STYLECHANGED"
+  },
+  {
+    "hex": "007e",
+    "dec": "126",
+    "name": "WM_DISPLAYCHANGE"
+  },
+  {
+    "hex": "007f",
+    "dec": "127",
+    "name": "WM_GETICON"
+  },
+  {
+    "hex": "0080",
+    "dec": "128",
+    "name": "WM_SETICON"
+  },
+  {
+    "hex": "0081",
+    "dec": "129",
+    "name": "WM_NCCREATE"
+  },
+  {
+    "hex": "0082",
+    "dec": "130",
+    "name": "WM_NCDESTROY"
+  },
+  {
+    "hex": "0083",
+    "dec": "131",
+    "name": "WM_NCCALCSIZE"
+  },
+  {
+    "hex": "0084",
+    "dec": "132",
+    "name": "WM_NCHITTEST"
+  },
+  {
+    "hex": "0085",
+    "dec": "133",
+    "name": "WM_NCPAINT"
+  },
+  {
+    "hex": "0086",
+    "dec": "134",
+    "name": "WM_NCACTIVATE"
+  },
+  {
+    "hex": "0087",
+    "dec": "135",
+    "name": "WM_GETDLGCODE"
+  },
+  {
+    "hex": "0088",
+    "dec": "136",
+    "name": "WM_SYNCPAINT"
+  },
+  {
+    "hex": "00a0",
+    "dec": "160",
+    "name": "WM_NCMOUSEMOVE"
+  },
+  {
+    "hex": "00a1",
+    "dec": "161",
+    "name": "WM_NCLBUTTONDOWN"
+  },
+  {
+    "hex": "00a2",
+    "dec": "162",
+    "name": "WM_NCLBUTTONUP"
+  },
+  {
+    "hex": "00a3",
+    "dec": "163",
+    "name": "WM_NCLBUTTONDBLCLK"
+  },
+  {
+    "hex": "00a4",
+    "dec": "164",
+    "name": "WM_NCRBUTTONDOWN"
+  },
+  {
+    "hex": "00a5",
+    "dec": "165",
+    "name": "WM_NCRBUTTONUP"
+  },
+  {
+    "hex": "00a6",
+    "dec": "166",
+    "name": "WM_NCRBUTTONDBLCLK"
+  },
+  {
+    "hex": "00a7",
+    "dec": "167",
+    "name": "WM_NCMBUTTONDOWN"
+  },
+  {
+    "hex": "00a8",
+    "dec": "168",
+    "name": "WM_NCMBUTTONUP"
+  },
+  {
+    "hex": "00a9",
+    "dec": "169",
+    "name": "WM_NCMBUTTONDBLCLK"
+  },
+  {
+    "hex": "00ab",
+    "dec": "171",
+    "name": "WM_NCXBUTTONDOWN"
+  },
+  {
+    "hex": "00ac",
+    "dec": "172",
+    "name": "WM_NCXBUTTONUP"
+  },
+  {
+    "hex": "00ad",
+    "dec": "173",
+    "name": "WM_NCXBUTTONDBLCLK"
+  },
+  {
+    "hex": "00b0",
+    "dec": "176",
+    "name": "EM_GETSEL"
+  },
+  {
+    "hex": "00b1",
+    "dec": "177",
+    "name": "EM_SETSEL"
+  },
+  {
+    "hex": "00b2",
+    "dec": "178",
+    "name": "EM_GETRECT"
+  },
+  {
+    "hex": "00b3",
+    "dec": "179",
+    "name": "EM_SETRECT"
+  },
+  {
+    "hex": "00b4",
+    "dec": "180",
+    "name": "EM_SETRECTNP"
+  },
+  {
+    "hex": "00b5",
+    "dec": "181",
+    "name": "EM_SCROLL"
+  },
+  {
+    "hex": "00b6",
+    "dec": "182",
+    "name": "EM_LINESCROLL"
+  },
+  {
+    "hex": "00b7",
+    "dec": "183",
+    "name": "EM_SCROLLCARET"
+  },
+  {
+    "hex": "00b8",
+    "dec": "185",
+    "name": "EM_GETMODIFY"
+  },
+  {
+    "hex": "00b9",
+    "dec": "187",
+    "name": "EM_SETMODIFY"
+  },
+  {
+    "hex": "00ba",
+    "dec": "188",
+    "name": "EM_GETLINECOUNT"
+  },
+  {
+    "hex": "00bb",
+    "dec": "189",
+    "name": "EM_LINEINDEX"
+  },
+  {
+    "hex": "00bc",
+    "dec": "190",
+    "name": "EM_SETHANDLE"
+  },
+  {
+    "hex": "00bd",
+    "dec": "191",
+    "name": "EM_GETHANDLE"
+  },
+  {
+    "hex": "00be",
+    "dec": "192",
+    "name": "EM_GETTHUMB"
+  },
+  {
+    "hex": "00c1",
+    "dec": "193",
+    "name": "EM_LINELENGTH"
+  },
+  {
+    "hex": "00c2",
+    "dec": "194",
+    "name": "EM_REPLACESEL"
+  },
+  {
+    "hex": "00c3",
+    "dec": "195",
+    "name": "EM_SETFONT"
+  },
+  {
+    "hex": "00c4",
+    "dec": "196",
+    "name": "EM_GETLINE"
+  },
+  {
+    "hex": "00c5",
+    "dec": "197",
+    "name": "EM_LIMITTEXT"
+  },
+  {
+    "hex": "00c5",
+    "dec": "197",
+    "name": "EM_SETLIMITTEXT"
+  },
+  {
+    "hex": "00c6",
+    "dec": "198",
+    "name": "EM_CANUNDO"
+  },
+  {
+    "hex": "00c7",
+    "dec": "199",
+    "name": "EM_UNDO"
+  },
+  {
+    "hex": "00c8",
+    "dec": "200",
+    "name": "EM_FMTLINES"
+  },
+  {
+    "hex": "00c9",
+    "dec": "201",
+    "name": "EM_LINEFROMCHAR"
+  },
+  {
+    "hex": "00ca",
+    "dec": "202",
+    "name": "EM_SETWORDBREAK"
+  },
+  {
+    "hex": "00cb",
+    "dec": "203",
+    "name": "EM_SETTABSTOPS"
+  },
+  {
+    "hex": "00cc",
+    "dec": "204",
+    "name": "EM_SETPASSWORDCHAR"
+  },
+  {
+    "hex": "00cd",
+    "dec": "205",
+    "name": "EM_EMPTYUNDOBUFFER"
+  },
+  {
+    "hex": "00ce",
+    "dec": "206",
+    "name": "EM_GETFIRSTVISIBLELINE"
+  },
+  {
+    "hex": "00cf",
+    "dec": "207",
+    "name": "EM_SETREADONLY"
+  },
+  {
+    "hex": "00d0",
+    "dec": "209",
+    "name": "EM_SETWORDBREAKPROC"
+  },
+  {
+    "hex": "00d1",
+    "dec": "209",
+    "name": "EM_GETWORDBREAKPROC"
+  },
+  {
+    "hex": "00d2",
+    "dec": "210",
+    "name": "EM_GETPASSWORDCHAR"
+  },
+  {
+    "hex": "00d3",
+    "dec": "211",
+    "name": "EM_SETMARGINS"
+  },
+  {
+    "hex": "00d4",
+    "dec": "212",
+    "name": "EM_GETMARGINS"
+  },
+  {
+    "hex": "00d5",
+    "dec": "213",
+    "name": "EM_GETLIMITTEXT"
+  },
+  {
+    "hex": "00d6",
+    "dec": "214",
+    "name": "EM_POSFROMCHAR"
+  },
+  {
+    "hex": "00d7",
+    "dec": "215",
+    "name": "EM_CHARFROMPOS"
+  },
+  {
+    "hex": "00d8",
+    "dec": "216",
+    "name": "EM_SETIMESTATUS"
+  },
+  {
+    "hex": "00d9",
+    "dec": "217",
+    "name": "EM_GETIMESTATUS"
+  },
+  {
+    "hex": "00e0",
+    "dec": "224",
+    "name": "SBM_SETPOS"
+  },
+  {
+    "hex": "00e1",
+    "dec": "225",
+    "name": "SBM_GETPOS"
+  },
+  {
+    "hex": "00e2",
+    "dec": "226",
+    "name": "SBM_SETRANGE"
+  },
+  {
+    "hex": "00e3",
+    "dec": "227",
+    "name": "SBM_GETRANGE"
+  },
+  {
+    "hex": "00e4",
+    "dec": "228",
+    "name": "SBM_ENABLE_ARROWS"
+  },
+  {
+    "hex": "00e6",
+    "dec": "230",
+    "name": "SBM_SETRANGEREDRAW"
+  },
+  {
+    "hex": "00e9",
+    "dec": "233",
+    "name": "SBM_SETSCROLLINFO"
+  },
+  {
+    "hex": "00ea",
+    "dec": "234",
+    "name": "SBM_GETSCROLLINFO"
+  },
+  {
+    "hex": "00eb",
+    "dec": "235",
+    "name": "SBM_GETSCROLLBARINFO"
+  },
+  {
+    "hex": "00f0",
+    "dec": "240",
+    "name": "BM_GETCHECK"
+  },
+  {
+    "hex": "00f1",
+    "dec": "241",
+    "name": "BM_SETCHECK"
+  },
+  {
+    "hex": "00f2",
+    "dec": "242",
+    "name": "BM_GETSTATE"
+  },
+  {
+    "hex": "00f3",
+    "dec": "243",
+    "name": "BM_SETSTATE"
+  },
+  {
+    "hex": "00f4",
+    "dec": "244",
+    "name": "BM_SETSTYLE"
+  },
+  {
+    "hex": "00f5",
+    "dec": "245",
+    "name": "BM_CLICK"
+  },
+  {
+    "hex": "00f6",
+    "dec": "246",
+    "name": "BM_GETIMAGE"
+  },
+  {
+    "hex": "00f7",
+    "dec": "247",
+    "name": "BM_SETIMAGE"
+  },
+  {
+    "hex": "00f8",
+    "dec": "248",
+    "name": "BM_SETDONTCLICK"
+  },
+  {
+    "hex": "00ff",
+    "dec": "255",
+    "name": "WM_INPUT"
+  },
+  {
+    "hex": "0100",
+    "dec": "256",
+    "name": "WM_KEYDOWN"
+  },
+  {
+    "hex": "0100",
+    "dec": "256",
+    "name": "WM_KEYFIRST"
+  },
+  {
+    "hex": "0101",
+    "dec": "257",
+    "name": "WM_KEYUP"
+  },
+  {
+    "hex": "0102",
+    "dec": "258",
+    "name": "WM_CHAR"
+  },
+  {
+    "hex": "0103",
+    "dec": "259",
+    "name": "WM_DEADCHAR"
+  },
+  {
+    "hex": "0104",
+    "dec": "260",
+    "name": "WM_SYSKEYDOWN"
+  },
+  {
+    "hex": "0105",
+    "dec": "261",
+    "name": "WM_SYSKEYUP"
+  },
+  {
+    "hex": "0106",
+    "dec": "262",
+    "name": "WM_SYSCHAR"
+  },
+  {
+    "hex": "0107",
+    "dec": "263",
+    "name": "WM_SYSDEADCHAR"
+  },
+  {
+    "hex": "0108",
+    "dec": "264",
+    "name": "WM_KEYLAST"
+  },
+  {
+    "hex": "0109",
+    "dec": "265",
+    "name": "WM_UNICHAR"
+  },
+  {
+    "hex": "0109",
+    "dec": "265",
+    "name": "WM_WNT_CONVERTREQUESTEX"
+  },
+  {
+    "hex": "010a",
+    "dec": "266",
+    "name": "WM_CONVERTREQUEST"
+  },
+  {
+    "hex": "010b",
+    "dec": "267",
+    "name": "WM_CONVERTRESULT"
+  },
+  {
+    "hex": "010c",
+    "dec": "268",
+    "name": "WM_INTERIM"
+  },
+  {
+    "hex": "010d",
+    "dec": "269",
+    "name": "WM_IME_STARTCOMPOSITION"
+  },
+  {
+    "hex": "010e",
+    "dec": "270",
+    "name": "WM_IME_ENDCOMPOSITION"
+  },
+  {
+    "hex": "010f",
+    "dec": "271",
+    "name": "WM_IME_COMPOSITION"
+  },
+  {
+    "hex": "010f",
+    "dec": "271",
+    "name": "WM_IME_KEYLAST"
+  },
+  {
+    "hex": "0110",
+    "dec": "272",
+    "name": "WM_INITDIALOG"
+  },
+  {
+    "hex": "0111",
+    "dec": "273",
+    "name": "WM_COMMAND"
+  },
+  {
+    "hex": "0112",
+    "dec": "274",
+    "name": "WM_SYSCOMMAND"
+  },
+  {
+    "hex": "0113",
+    "dec": "275",
+    "name": "WM_TIMER"
+  },
+  {
+    "hex": "0114",
+    "dec": "276",
+    "name": "WM_HSCROLL"
+  },
+  {
+    "hex": "0115",
+    "dec": "277",
+    "name": "WM_VSCROLL"
+  },
+  {
+    "hex": "0116",
+    "dec": "278",
+    "name": "WM_INITMENU"
+  },
+  {
+    "hex": "0117",
+    "dec": "279",
+    "name": "WM_INITMENUPOPUP"
+  },
+  {
+    "hex": "0118",
+    "dec": "280",
+    "name": "WM_SYSTIMER"
+  },
+  {
+    "hex": "011f",
+    "dec": "287",
+    "name": "WM_MENUSELECT"
+  },
+  {
+    "hex": "0120",
+    "dec": "288",
+    "name": "WM_MENUCHAR"
+  },
+  {
+    "hex": "0121",
+    "dec": "289",
+    "name": "WM_ENTERIDLE"
+  },
+  {
+    "hex": "0122",
+    "dec": "290",
+    "name": "WM_MENURBUTTONUP"
+  },
+  {
+    "hex": "0123",
+    "dec": "291",
+    "name": "WM_MENUDRAG"
+  },
+  {
+    "hex": "0124",
+    "dec": "292",
+    "name": "WM_MENUGETOBJECT"
+  },
+  {
+    "hex": "0125",
+    "dec": "293",
+    "name": "WM_UNINITMENUPOPUP"
+  },
+  {
+    "hex": "0126",
+    "dec": "294",
+    "name": "WM_MENUCOMMAND"
+  },
+  {
+    "hex": "0127",
+    "dec": "295",
+    "name": "WM_CHANGEUISTATE"
+  },
+  {
+    "hex": "0128",
+    "dec": "296",
+    "name": "WM_UPDATEUISTATE"
+  },
+  {
+    "hex": "0129",
+    "dec": "297",
+    "name": "WM_QUERYUISTATE"
+  },
+  {
+    "hex": "0132",
+    "dec": "306",
+    "name": "WM_CTLCOLORMSGBOX"
+  },
+  {
+    "hex": "0133",
+    "dec": "307",
+    "name": "WM_CTLCOLOREDIT"
+  },
+  {
+    "hex": "0134",
+    "dec": "308",
+    "name": "WM_CTLCOLORLISTBOX"
+  },
+  {
+    "hex": "0135",
+    "dec": "309",
+    "name": "WM_CTLCOLORBTN"
+  },
+  {
+    "hex": "0136",
+    "dec": "310",
+    "name": "WM_CTLCOLORDLG"
+  },
+  {
+    "hex": "0137",
+    "dec": "311",
+    "name": "WM_CTLCOLORSCROLLBAR"
+  },
+  {
+    "hex": "0138",
+    "dec": "312",
+    "name": "WM_CTLCOLORSTATIC"
+  },
+  {
+    "hex": "0200",
+    "dec": "512",
+    "name": "WM_MOUSEFIRST"
+  },
+  {
+    "hex": "0200",
+    "dec": "512",
+    "name": "WM_MOUSEMOVE"
+  },
+  {
+    "hex": "0201",
+    "dec": "513",
+    "name": "WM_LBUTTONDOWN"
+  },
+  {
+    "hex": "0202",
+    "dec": "514",
+    "name": "WM_LBUTTONUP"
+  },
+  {
+    "hex": "0203",
+    "dec": "515",
+    "name": "WM_LBUTTONDBLCLK"
+  },
+  {
+    "hex": "0204",
+    "dec": "516",
+    "name": "WM_RBUTTONDOWN"
+  },
+  {
+    "hex": "0205",
+    "dec": "517",
+    "name": "WM_RBUTTONUP"
+  },
+  {
+    "hex": "0206",
+    "dec": "518",
+    "name": "WM_RBUTTONDBLCLK"
+  },
+  {
+    "hex": "0207",
+    "dec": "519",
+    "name": "WM_MBUTTONDOWN"
+  },
+  {
+    "hex": "0208",
+    "dec": "520",
+    "name": "WM_MBUTTONUP"
+  },
+  {
+    "hex": "0209",
+    "dec": "521",
+    "name": "WM_MBUTTONDBLCLK"
+  },
+  {
+    "hex": "0209",
+    "dec": "521",
+    "name": "WM_MOUSELAST"
+  },
+  {
+    "hex": "020a",
+    "dec": "522",
+    "name": "WM_MOUSEWHEEL"
+  },
+  {
+    "hex": "020b",
+    "dec": "523",
+    "name": "WM_XBUTTONDOWN"
+  },
+  {
+    "hex": "020c",
+    "dec": "524",
+    "name": "WM_XBUTTONUP"
+  },
+  {
+    "hex": "020d",
+    "dec": "525",
+    "name": "WM_XBUTTONDBLCLK"
+  },
+  {
+    "hex": "0210",
+    "dec": "528",
+    "name": "WM_PARENTNOTIFY"
+  },
+  {
+    "hex": "0211",
+    "dec": "529",
+    "name": "WM_ENTERMENULOOP"
+  },
+  {
+    "hex": "0212",
+    "dec": "530",
+    "name": "WM_EXITMENULOOP"
+  },
+  {
+    "hex": "0213",
+    "dec": "531",
+    "name": "WM_NEXTMENU"
+  },
+  {
+    "hex": "0214",
+    "dec": "532",
+    "name": "WM_SIZING"
+  },
+  {
+    "hex": "0215",
+    "dec": "533",
+    "name": "WM_CAPTURECHANGED"
+  },
+  {
+    "hex": "0216",
+    "dec": "534",
+    "name": "WM_MOVING"
+  },
+  {
+    "hex": "0218",
+    "dec": "536",
+    "name": "WM_POWERBROADCAST"
+  },
+  {
+    "hex": "0219",
+    "dec": "537",
+    "name": "WM_DEVICECHANGE"
+  },
+  {
+    "hex": "0220",
+    "dec": "544",
+    "name": "WM_MDICREATE"
+  },
+  {
+    "hex": "0221",
+    "dec": "545",
+    "name": "WM_MDIDESTROY"
+  },
+  {
+    "hex": "0222",
+    "dec": "546",
+    "name": "WM_MDIACTIVATE"
+  },
+  {
+    "hex": "0223",
+    "dec": "547",
+    "name": "WM_MDIRESTORE"
+  },
+  {
+    "hex": "0224",
+    "dec": "548",
+    "name": "WM_MDINEXT"
+  },
+  {
+    "hex": "0225",
+    "dec": "549",
+    "name": "WM_MDIMAXIMIZE"
+  },
+  {
+    "hex": "0226",
+    "dec": "550",
+    "name": "WM_MDITILE"
+  },
+  {
+    "hex": "0227",
+    "dec": "551",
+    "name": "WM_MDICASCADE"
+  },
+  {
+    "hex": "0228",
+    "dec": "552",
+    "name": "WM_MDIICONARRANGE"
+  },
+  {
+    "hex": "0229",
+    "dec": "553",
+    "name": "WM_MDIGETACTIVE"
+  },
+  {
+    "hex": "0230",
+    "dec": "560",
+    "name": "WM_MDISETMENU"
+  },
+  {
+    "hex": "0231",
+    "dec": "561",
+    "name": "WM_ENTERSIZEMOVE"
+  },
+  {
+    "hex": "0232",
+    "dec": "562",
+    "name": "WM_EXITSIZEMOVE"
+  },
+  {
+    "hex": "0233",
+    "dec": "563",
+    "name": "WM_DROPFILES"
+  },
+  {
+    "hex": "0234",
+    "dec": "564",
+    "name": "WM_MDIREFRESHMENU"
+  },
+  {
+    "hex": "0280",
+    "dec": "640",
+    "name": "WM_IME_REPORT"
+  },
+  {
+    "hex": "0281",
+    "dec": "641",
+    "name": "WM_IME_SETCONTEXT"
+  },
+  {
+    "hex": "0282",
+    "dec": "642",
+    "name": "WM_IME_NOTIFY"
+  },
+  {
+    "hex": "0283",
+    "dec": "643",
+    "name": "WM_IME_CONTROL"
+  },
+  {
+    "hex": "0284",
+    "dec": "644",
+    "name": "WM_IME_COMPOSITIONFULL"
+  },
+  {
+    "hex": "0285",
+    "dec": "645",
+    "name": "WM_IME_SELECT"
+  },
+  {
+    "hex": "0286",
+    "dec": "646",
+    "name": "WM_IME_CHAR"
+  },
+  {
+    "hex": "0288",
+    "dec": "648",
+    "name": "WM_IME_REQUEST"
+  },
+  {
+    "hex": "0290",
+    "dec": "656",
+    "name": "WM_IMEKEYDOWN"
+  },
+  {
+    "hex": "0290",
+    "dec": "656",
+    "name": "WM_IME_KEYDOWN"
+  },
+  {
+    "hex": "0291",
+    "dec": "657",
+    "name": "WM_IMEKEYUP"
+  },
+  {
+    "hex": "0291",
+    "dec": "657",
+    "name": "WM_IME_KEYUP"
+  },
+  {
+    "hex": "02a0",
+    "dec": "672",
+    "name": "WM_NCMOUSEHOVER"
+  },
+  {
+    "hex": "02a1",
+    "dec": "673",
+    "name": "WM_MOUSEHOVER"
+  },
+  {
+    "hex": "02a2",
+    "dec": "674",
+    "name": "WM_NCMOUSELEAVE"
+  },
+  {
+    "hex": "02a3",
+    "dec": "675",
+    "name": "WM_MOUSELEAVE"
+  },
+  {
+    "hex": "0300",
+    "dec": "768",
+    "name": "WM_CUT"
+  },
+  {
+    "hex": "0301",
+    "dec": "769",
+    "name": "WM_COPY"
+  },
+  {
+    "hex": "0302",
+    "dec": "770",
+    "name": "WM_PASTE"
+  },
+  {
+    "hex": "0303",
+    "dec": "771",
+    "name": "WM_CLEAR"
+  },
+  {
+    "hex": "0304",
+    "dec": "772",
+    "name": "WM_UNDO"
+  },
+  {
+    "hex": "0305",
+    "dec": "773",
+    "name": "WM_RENDERFORMAT"
+  },
+  {
+    "hex": "0306",
+    "dec": "774",
+    "name": "WM_RENDERALLFORMATS"
+  },
+  {
+    "hex": "0307",
+    "dec": "775",
+    "name": "WM_DESTROYCLIPBOARD"
+  },
+  {
+    "hex": "0308",
+    "dec": "776",
+    "name": "WM_DRAWCLIPBOARD"
+  },
+  {
+    "hex": "0309",
+    "dec": "777",
+    "name": "WM_PAINTCLIPBOARD"
+  },
+  {
+    "hex": "030a",
+    "dec": "778",
+    "name": "WM_VSCROLLCLIPBOARD"
+  },
+  {
+    "hex": "030b",
+    "dec": "779",
+    "name": "WM_SIZECLIPBOARD"
+  },
+  {
+    "hex": "030c",
+    "dec": "780",
+    "name": "WM_ASKCBFORMATNAME"
+  },
+  {
+    "hex": "030d",
+    "dec": "781",
+    "name": "WM_CHANGECBCHAIN"
+  },
+  {
+    "hex": "030e",
+    "dec": "782",
+    "name": "WM_HSCROLLCLIPBOARD"
+  },
+  {
+    "hex": "030f",
+    "dec": "783",
+    "name": "WM_QUERYNEWPALETTE"
+  },
+  {
+    "hex": "0310",
+    "dec": "784",
+    "name": "WM_PALETTEISCHANGING"
+  },
+  {
+    "hex": "0311",
+    "dec": "785",
+    "name": "WM_PALETTECHANGED"
+  },
+  {
+    "hex": "0312",
+    "dec": "786",
+    "name": "WM_HOTKEY"
+  },
+  {
+    "hex": "0317",
+    "dec": "791",
+    "name": "WM_PRINT"
+  },
+  {
+    "hex": "0318",
+    "dec": "792",
+    "name": "WM_PRINTCLIENT"
+  },
+  {
+    "hex": "0319",
+    "dec": "793",
+    "name": "WM_APPCOMMAND"
+  },
+  {
+    "hex": "0358",
+    "dec": "856",
+    "name": "WM_HANDHELDFIRST"
+  },
+  {
+    "hex": "035f",
+    "dec": "863",
+    "name": "WM_HANDHELDLAST"
+  },
+  {
+    "hex": "0360",
+    "dec": "864",
+    "name": "WM_AFXFIRST"
+  },
+  {
+    "hex": "037f",
+    "dec": "895",
+    "name": "WM_AFXLAST"
+  },
+  {
+    "hex": "0380",
+    "dec": "896",
+    "name": "WM_PENWINFIRST"
+  },
+  {
+    "hex": "0381",
+    "dec": "897",
+    "name": "WM_RCRESULT"
+  },
+  {
+    "hex": "0382",
+    "dec": "898",
+    "name": "WM_HOOKRCRESULT"
+  },
+  {
+    "hex": "0383",
+    "dec": "899",
+    "name": "WM_GLOBALRCCHANGE"
+  },
+  {
+    "hex": "0383",
+    "dec": "899",
+    "name": "WM_PENMISCINFO"
+  },
+  {
+    "hex": "0384",
+    "dec": "900",
+    "name": "WM_SKB"
+  },
+  {
+    "hex": "0385",
+    "dec": "901",
+    "name": "WM_HEDITCTL"
+  },
+  {
+    "hex": "0385",
+    "dec": "901",
+    "name": "WM_PENCTL"
+  },
+  {
+    "hex": "0386",
+    "dec": "902",
+    "name": "WM_PENMISC"
+  },
+  {
+    "hex": "0387",
+    "dec": "903",
+    "name": "WM_CTLINIT"
+  },
+  {
+    "hex": "0388",
+    "dec": "904",
+    "name": "WM_PENEVENT"
+  },
+  {
+    "hex": "038f",
+    "dec": "911",
+    "name": "WM_PENWINLAST"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "DDM_SETFMT"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "DM_GETDEFID"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "NIN_SELECT"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "TBM_GETPOS"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "WM_PSD_PAGESETUPDLG"
+  },
+  {
+    "hex": "0400",
+    "dec": "1024",
+    "name": "WM_USER"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "CBEM_INSERTITEMA"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "DDM_DRAW"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "DM_SETDEFID"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "HKM_SETHOTKEY"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "PBM_SETRANGE"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "RB_INSERTBANDA"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "SB_SETTEXTA"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "TB_ENABLEBUTTON"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "TBM_GETRANGEMIN"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "TTM_ACTIVATE"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "WM_CHOOSEFONT_GETLOGFONT"
+  },
+  {
+    "hex": "0401",
+    "dec": "1025",
+    "name": "WM_PSD_FULLPAGERECT"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "CBEM_SETIMAGELIST"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "DDM_CLOSE"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "DM_REPOSITION"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "HKM_GETHOTKEY"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "PBM_SETPOS"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "RB_DELETEBAND"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "SB_GETTEXTA"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "TB_CHECKBUTTON"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "TBM_GETRANGEMAX"
+  },
+  {
+    "hex": "0402",
+    "dec": "1026",
+    "name": "WM_PSD_MINMARGINRECT"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "CBEM_GETIMAGELIST"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "DDM_BEGIN"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "HKM_SETRULES"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "PBM_DELTAPOS"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "RB_GETBARINFO"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "SB_GETTEXTLENGTHA"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "TBM_GETTIC"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "TB_PRESSBUTTON"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "TTM_SETDELAYTIME"
+  },
+  {
+    "hex": "0403",
+    "dec": "1027",
+    "name": "WM_PSD_MARGINRECT"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "CBEM_GETITEMA"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "DDM_END"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "PBM_SETSTEP"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "RB_SETBARINFO"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "SB_SETPARTS"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "TB_HIDEBUTTON"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "TBM_SETTIC"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "TTM_ADDTOOLA"
+  },
+  {
+    "hex": "0404",
+    "dec": "1028",
+    "name": "WM_PSD_GREEKTEXTRECT"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "CBEM_SETITEMA"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "PBM_STEPIT"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "TB_INDETERMINATE"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "TBM_SETPOS"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "TTM_DELTOOLA"
+  },
+  {
+    "hex": "0405",
+    "dec": "1029",
+    "name": "WM_PSD_ENVSTAMPRECT"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "CBEM_GETCOMBOCONTROL"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "PBM_SETRANGE32"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "RB_SETBANDINFOA"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "SB_GETPARTS"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "TB_MARKBUTTON"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "TBM_SETRANGE"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "TTM_NEWTOOLRECTA"
+  },
+  {
+    "hex": "0406",
+    "dec": "1030",
+    "name": "WM_PSD_YAFULLPAGERECT"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "CBEM_GETEDITCONTROL"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "PBM_GETRANGE"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "RB_SETPARENT"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "SB_GETBORDERS"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "TBM_SETRANGEMIN"
+  },
+  {
+    "hex": "0407",
+    "dec": "1031",
+    "name": "TTM_RELAYEVENT"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "CBEM_SETEXSTYLE"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "PBM_GETPOS"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "RB_HITTEST"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "SB_SETMINHEIGHT"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "TBM_SETRANGEMAX"
+  },
+  {
+    "hex": "0408",
+    "dec": "1032",
+    "name": "TTM_GETTOOLINFOA"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "CBEM_GETEXSTYLE"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "CBEM_GETEXTENDEDSTYLE"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "PBM_SETBARCOLOR"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "RB_GETRECT"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "SB_SIMPLE"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "TB_ISBUTTONENABLED"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "TBM_CLEARTICS"
+  },
+  {
+    "hex": "0409",
+    "dec": "1033",
+    "name": "TTM_SETTOOLINFOA"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "CBEM_HASEDITCHANGED"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "RB_INSERTBANDW"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "SB_GETRECT"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "TB_ISBUTTONCHECKED"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "TBM_SETSEL"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "TTM_HITTESTA"
+  },
+  {
+    "hex": "040a",
+    "dec": "1034",
+    "name": "WIZ_QUERYNUMPAGES"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "CBEM_INSERTITEMW"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "RB_SETBANDINFOW"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "SB_SETTEXTW"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "TB_ISBUTTONPRESSED"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "TBM_SETSELSTART"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "TTM_GETTEXTA"
+  },
+  {
+    "hex": "040b",
+    "dec": "1035",
+    "name": "WIZ_NEXT"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "CBEM_SETITEMW"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "RB_GETBANDCOUNT"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "SB_GETTEXTLENGTHW"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "TB_ISBUTTONHIDDEN"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "TBM_SETSELEND"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "TTM_UPDATETIPTEXTA"
+  },
+  {
+    "hex": "040c",
+    "dec": "1036",
+    "name": "WIZ_PREV"
+  },
+  {
+    "hex": "040d",
+    "dec": "1037",
+    "name": "CBEM_GETITEMW"
+  },
+  {
+    "hex": "040d",
+    "dec": "1037",
+    "name": "RB_GETROWCOUNT"
+  },
+  {
+    "hex": "040d",
+    "dec": "1037",
+    "name": "SB_GETTEXTW"
+  },
+  {
+    "hex": "040d",
+    "dec": "1037",
+    "name": "TB_ISBUTTONINDETERMINATE"
+  },
+  {
+    "hex": "040d",
+    "dec": "1037",
+    "name": "TTM_GETTOOLCOUNT"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "CBEM_SETEXTENDEDSTYLE"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "RB_GETROWHEIGHT"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "SB_ISSIMPLE"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "TB_ISBUTTONHIGHLIGHTED"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "TBM_GETPTICS"
+  },
+  {
+    "hex": "040e",
+    "dec": "1038",
+    "name": "TTM_ENUMTOOLSA"
+  },
+  {
+    "hex": "040f",
+    "dec": "1039",
+    "name": "SB_SETICON"
+  },
+  {
+    "hex": "040f",
+    "dec": "1039",
+    "name": "TBM_GETTICPOS"
+  },
+  {
+    "hex": "040f",
+    "dec": "1039",
+    "name": "TTM_GETCURRENTTOOLA"
+  },
+  {
+    "hex": "0410",
+    "dec": "1040",
+    "name": "RB_IDTOINDEX"
+  },
+  {
+    "hex": "0410",
+    "dec": "1040",
+    "name": "SB_SETTIPTEXTA"
+  },
+  {
+    "hex": "0410",
+    "dec": "1040",
+    "name": "TBM_GETNUMTICS"
+  },
+  {
+    "hex": "0410",
+    "dec": "1040",
+    "name": "TTM_WINDOWFROMPOINT"
+  },
+  {
+    "hex": "0411",
+    "dec": "1041",
+    "name": "RB_GETTOOLTIPS"
+  },
+  {
+    "hex": "0411",
+    "dec": "1041",
+    "name": "SB_SETTIPTEXTW"
+  },
+  {
+    "hex": "0411",
+    "dec": "1041",
+    "name": "TBM_GETSELSTART"
+  },
+  {
+    "hex": "0411",
+    "dec": "1041",
+    "name": "TB_SETSTATE"
+  },
+  {
+    "hex": "0411",
+    "dec": "1041",
+    "name": "TTM_TRACKACTIVATE"
+  },
+  {
+    "hex": "0412",
+    "dec": "1042",
+    "name": "RB_SETTOOLTIPS"
+  },
+  {
+    "hex": "0412",
+    "dec": "1042",
+    "name": "SB_GETTIPTEXTA"
+  },
+  {
+    "hex": "0412",
+    "dec": "1042",
+    "name": "TB_GETSTATE"
+  },
+  {
+    "hex": "0412",
+    "dec": "1042",
+    "name": "TBM_GETSELEND"
+  },
+  {
+    "hex": "0412",
+    "dec": "1042",
+    "name": "TTM_TRACKPOSITION"
+  },
+  {
+    "hex": "0413",
+    "dec": "1043",
+    "name": "RB_SETBKCOLOR"
+  },
+  {
+    "hex": "0413",
+    "dec": "1043",
+    "name": "SB_GETTIPTEXTW"
+  },
+  {
+    "hex": "0413",
+    "dec": "1043",
+    "name": "TB_ADDBITMAP"
+  },
+  {
+    "hex": "0413",
+    "dec": "1043",
+    "name": "TBM_CLEARSEL"
+  },
+  {
+    "hex": "0413",
+    "dec": "1043",
+    "name": "TTM_SETTIPBKCOLOR"
+  },
+  {
+    "hex": "0414",
+    "dec": "1044",
+    "name": "RB_GETBKCOLOR"
+  },
+  {
+    "hex": "0414",
+    "dec": "1044",
+    "name": "SB_GETICON"
+  },
+  {
+    "hex": "0414",
+    "dec": "1044",
+    "name": "TB_ADDBUTTONSA"
+  },
+  {
+    "hex": "0414",
+    "dec": "1044",
+    "name": "TBM_SETTICFREQ"
+  },
+  {
+    "hex": "0414",
+    "dec": "1044",
+    "name": "TTM_SETTIPTEXTCOLOR"
+  },
+  {
+    "hex": "0415",
+    "dec": "1045",
+    "name": "RB_SETTEXTCOLOR"
+  },
+  {
+    "hex": "0415",
+    "dec": "1045",
+    "name": "TB_INSERTBUTTONA"
+  },
+  {
+    "hex": "0415",
+    "dec": "1045",
+    "name": "TBM_SETPAGESIZE"
+  },
+  {
+    "hex": "0415",
+    "dec": "1045",
+    "name": "TTM_GETDELAYTIME"
+  },
+  {
+    "hex": "0416",
+    "dec": "1046",
+    "name": "RB_GETTEXTCOLOR"
+  },
+  {
+    "hex": "0416",
+    "dec": "1046",
+    "name": "TB_DELETEBUTTON"
+  },
+  {
+    "hex": "0416",
+    "dec": "1046",
+    "name": "TBM_GETPAGESIZE"
+  },
+  {
+    "hex": "0416",
+    "dec": "1046",
+    "name": "TTM_GETTIPBKCOLOR"
+  },
+  {
+    "hex": "0417",
+    "dec": "1047",
+    "name": "RB_SIZETORECT"
+  },
+  {
+    "hex": "0417",
+    "dec": "1047",
+    "name": "TB_GETBUTTON"
+  },
+  {
+    "hex": "0417",
+    "dec": "1047",
+    "name": "TBM_SETLINESIZE"
+  },
+  {
+    "hex": "0417",
+    "dec": "1047",
+    "name": "TTM_GETTIPTEXTCOLOR"
+  },
+  {
+    "hex": "0418",
+    "dec": "1048",
+    "name": "RB_BEGINDRAG"
+  },
+  {
+    "hex": "0418",
+    "dec": "1048",
+    "name": "TB_BUTTONCOUNT"
+  },
+  {
+    "hex": "0418",
+    "dec": "1048",
+    "name": "TBM_GETLINESIZE"
+  },
+  {
+    "hex": "0418",
+    "dec": "1048",
+    "name": "TTM_SETMAXTIPWIDTH"
+  },
+  {
+    "hex": "0419",
+    "dec": "1049",
+    "name": "RB_ENDDRAG"
+  },
+  {
+    "hex": "0419",
+    "dec": "1049",
+    "name": "TB_COMMANDTOINDEX"
+  },
+  {
+    "hex": "0419",
+    "dec": "1049",
+    "name": "TBM_GETTHUMBRECT"
+  },
+  {
+    "hex": "0419",
+    "dec": "1049",
+    "name": "TTM_GETMAXTIPWIDTH"
+  },
+  {
+    "hex": "041a",
+    "dec": "1050",
+    "name": "RB_DRAGMOVE"
+  },
+  {
+    "hex": "041a",
+    "dec": "1050",
+    "name": "TBM_GETCHANNELRECT"
+  },
+  {
+    "hex": "041a",
+    "dec": "1050",
+    "name": "TB_SAVERESTOREA"
+  },
+  {
+    "hex": "041a",
+    "dec": "1050",
+    "name": "TTM_SETMARGIN"
+  },
+  {
+    "hex": "041b",
+    "dec": "1051",
+    "name": "RB_GETBARHEIGHT"
+  },
+  {
+    "hex": "041b",
+    "dec": "1051",
+    "name": "TB_CUSTOMIZE"
+  },
+  {
+    "hex": "041b",
+    "dec": "1051",
+    "name": "TBM_SETTHUMBLENGTH"
+  },
+  {
+    "hex": "041b",
+    "dec": "1051",
+    "name": "TTM_GETMARGIN"
+  },
+  {
+    "hex": "041c",
+    "dec": "1052",
+    "name": "RB_GETBANDINFOW"
+  },
+  {
+    "hex": "041c",
+    "dec": "1052",
+    "name": "TB_ADDSTRINGA"
+  },
+  {
+    "hex": "041c",
+    "dec": "1052",
+    "name": "TBM_GETTHUMBLENGTH"
+  },
+  {
+    "hex": "041c",
+    "dec": "1052",
+    "name": "TTM_POP"
+  },
+  {
+    "hex": "041d",
+    "dec": "1053",
+    "name": "RB_GETBANDINFOA"
+  },
+  {
+    "hex": "041d",
+    "dec": "1053",
+    "name": "TB_GETITEMRECT"
+  },
+  {
+    "hex": "041d",
+    "dec": "1053",
+    "name": "TBM_SETTOOLTIPS"
+  },
+  {
+    "hex": "041d",
+    "dec": "1053",
+    "name": "TTM_UPDATE"
+  },
+  {
+    "hex": "041e",
+    "dec": "1054",
+    "name": "RB_MINIMIZEBAND"
+  },
+  {
+    "hex": "041e",
+    "dec": "1054",
+    "name": "TB_BUTTONSTRUCTSIZE"
+  },
+  {
+    "hex": "041e",
+    "dec": "1054",
+    "name": "TBM_GETTOOLTIPS"
+  },
+  {
+    "hex": "041e",
+    "dec": "1054",
+    "name": "TTM_GETBUBBLESIZE"
+  },
+  {
+    "hex": "041f",
+    "dec": "1055",
+    "name": "RB_MAXIMIZEBAND"
+  },
+  {
+    "hex": "041f",
+    "dec": "1055",
+    "name": "TBM_SETTIPSIDE"
+  },
+  {
+    "hex": "041f",
+    "dec": "1055",
+    "name": "TB_SETBUTTONSIZE"
+  },
+  {
+    "hex": "041f",
+    "dec": "1055",
+    "name": "TTM_ADJUSTRECT"
+  },
+  {
+    "hex": "0420",
+    "dec": "1056",
+    "name": "TBM_SETBUDDY"
+  },
+  {
+    "hex": "0420",
+    "dec": "1056",
+    "name": "TB_SETBITMAPSIZE"
+  },
+  {
+    "hex": "0420",
+    "dec": "1056",
+    "name": "TTM_SETTITLEA"
+  },
+  {
+    "hex": "0421",
+    "dec": "1057",
+    "name": "MSG_FTS_JUMP_VA"
+  },
+  {
+    "hex": "0421",
+    "dec": "1057",
+    "name": "TB_AUTOSIZE"
+  },
+  {
+    "hex": "0421",
+    "dec": "1057",
+    "name": "TBM_GETBUDDY"
+  },
+  {
+    "hex": "0421",
+    "dec": "1057",
+    "name": "TTM_SETTITLEW"
+  },
+  {
+    "hex": "0422",
+    "dec": "1058",
+    "name": "RB_GETBANDBORDERS"
+  },
+  {
+    "hex": "0423",
+    "dec": "1059",
+    "name": "MSG_FTS_JUMP_QWORD"
+  },
+  {
+    "hex": "0423",
+    "dec": "1059",
+    "name": "RB_SHOWBAND"
+  },
+  {
+    "hex": "0423",
+    "dec": "1059",
+    "name": "TB_GETTOOLTIPS"
+  },
+  {
+    "hex": "0424",
+    "dec": "1060",
+    "name": "MSG_REINDEX_REQUEST"
+  },
+  {
+    "hex": "0424",
+    "dec": "1060",
+    "name": "TB_SETTOOLTIPS"
+  },
+  {
+    "hex": "0425",
+    "dec": "1061",
+    "name": "MSG_FTS_WHERE_IS_IT"
+  },
+  {
+    "hex": "0425",
+    "dec": "1061",
+    "name": "RB_SETPALETTE"
+  },
+  {
+    "hex": "0425",
+    "dec": "1061",
+    "name": "TB_SETPARENT"
+  },
+  {
+    "hex": "0426",
+    "dec": "1062",
+    "name": "RB_GETPALETTE"
+  },
+  {
+    "hex": "0427",
+    "dec": "1063",
+    "name": "RB_MOVEBAND"
+  },
+  {
+    "hex": "0427",
+    "dec": "1063",
+    "name": "TB_SETROWS"
+  },
+  {
+    "hex": "0428",
+    "dec": "1064",
+    "name": "TB_GETROWS"
+  },
+  {
+    "hex": "0429",
+    "dec": "1065",
+    "name": "TB_GETBITMAPFLAGS"
+  },
+  {
+    "hex": "042a",
+    "dec": "1066",
+    "name": "TB_SETCMDID"
+  },
+  {
+    "hex": "042b",
+    "dec": "1067",
+    "name": "RB_PUSHCHEVRON"
+  },
+  {
+    "hex": "042b",
+    "dec": "1067",
+    "name": "TB_CHANGEBITMAP"
+  },
+  {
+    "hex": "042c",
+    "dec": "1068",
+    "name": "TB_GETBITMAP"
+  },
+  {
+    "hex": "042d",
+    "dec": "1069",
+    "name": "MSG_GET_DEFFONT"
+  },
+  {
+    "hex": "042d",
+    "dec": "1069",
+    "name": "TB_GETBUTTONTEXTA"
+  },
+  {
+    "hex": "042e",
+    "dec": "1070",
+    "name": "TB_REPLACEBITMAP"
+  },
+  {
+    "hex": "042f",
+    "dec": "1071",
+    "name": "TB_SETINDENT"
+  },
+  {
+    "hex": "0430",
+    "dec": "1072",
+    "name": "TB_SETIMAGELIST"
+  },
+  {
+    "hex": "0431",
+    "dec": "1073",
+    "name": "TB_GETIMAGELIST"
+  },
+  {
+    "hex": "0432",
+    "dec": "1074",
+    "name": "TB_LOADIMAGES"
+  },
+  {
+    "hex": "0432",
+    "dec": "1074",
+    "name": "EM_CANPASTE"
+  },
+  {
+    "hex": "0432",
+    "dec": "1074",
+    "name": "TTM_ADDTOOLW"
+  },
+  {
+    "hex": "0433",
+    "dec": "1075",
+    "name": "EM_DISPLAYBAND"
+  },
+  {
+    "hex": "0433",
+    "dec": "1075",
+    "name": "TB_GETRECT"
+  },
+  {
+    "hex": "0433",
+    "dec": "1075",
+    "name": "TTM_DELTOOLW"
+  },
+  {
+    "hex": "0434",
+    "dec": "1076",
+    "name": "EM_EXGETSEL"
+  },
+  {
+    "hex": "0434",
+    "dec": "1076",
+    "name": "TB_SETHOTIMAGELIST"
+  },
+  {
+    "hex": "0434",
+    "dec": "1076",
+    "name": "TTM_NEWTOOLRECTW"
+  },
+  {
+    "hex": "0435",
+    "dec": "1077",
+    "name": "EM_EXLIMITTEXT"
+  },
+  {
+    "hex": "0435",
+    "dec": "1077",
+    "name": "TB_GETHOTIMAGELIST"
+  },
+  {
+    "hex": "0435",
+    "dec": "1077",
+    "name": "TTM_GETTOOLINFOW"
+  },
+  {
+    "hex": "0436",
+    "dec": "1078",
+    "name": "EM_EXLINEFROMCHAR"
+  },
+  {
+    "hex": "0436",
+    "dec": "1078",
+    "name": "TB_SETDISABLEDIMAGELIST"
+  },
+  {
+    "hex": "0436",
+    "dec": "1078",
+    "name": "TTM_SETTOOLINFOW"
+  },
+  {
+    "hex": "0437",
+    "dec": "1079",
+    "name": "EM_EXSETSEL"
+  },
+  {
+    "hex": "0437",
+    "dec": "1079",
+    "name": "TB_GETDISABLEDIMAGELIST"
+  },
+  {
+    "hex": "0437",
+    "dec": "1079",
+    "name": "TTM_HITTESTW"
+  },
+  {
+    "hex": "0438",
+    "dec": "1080",
+    "name": "EM_FINDTEXT"
+  },
+  {
+    "hex": "0438",
+    "dec": "1080",
+    "name": "TB_SETSTYLE"
+  },
+  {
+    "hex": "0438",
+    "dec": "1080",
+    "name": "TTM_GETTEXTW"
+  },
+  {
+    "hex": "0439",
+    "dec": "1081",
+    "name": "EM_FORMATRANGE"
+  },
+  {
+    "hex": "0439",
+    "dec": "1081",
+    "name": "TB_GETSTYLE"
+  },
+  {
+    "hex": "0439",
+    "dec": "1081",
+    "name": "TTM_UPDATETIPTEXTW"
+  },
+  {
+    "hex": "043a",
+    "dec": "1082",
+    "name": "EM_GETCHARFORMAT"
+  },
+  {
+    "hex": "043a",
+    "dec": "1082",
+    "name": "TB_GETBUTTONSIZE"
+  },
+  {
+    "hex": "043a",
+    "dec": "1082",
+    "name": "TTM_ENUMTOOLSW"
+  },
+  {
+    "hex": "043b",
+    "dec": "1083",
+    "name": "EM_GETEVENTMASK"
+  },
+  {
+    "hex": "043b",
+    "dec": "1083",
+    "name": "TB_SETBUTTONWIDTH"
+  },
+  {
+    "hex": "043b",
+    "dec": "1083",
+    "name": "TTM_GETCURRENTTOOLW"
+  },
+  {
+    "hex": "043c",
+    "dec": "1084",
+    "name": "EM_GETOLEINTERFACE"
+  },
+  {
+    "hex": "043c",
+    "dec": "1084",
+    "name": "TB_SETMAXTEXTROWS"
+  },
+  {
+    "hex": "043d",
+    "dec": "1085",
+    "name": "EM_GETPARAFORMAT"
+  },
+  {
+    "hex": "043d",
+    "dec": "1085",
+    "name": "TB_GETTEXTROWS"
+  },
+  {
+    "hex": "043e",
+    "dec": "1086",
+    "name": "EM_GETSELTEXT"
+  },
+  {
+    "hex": "043e",
+    "dec": "1086",
+    "name": "TB_GETOBJECT"
+  },
+  {
+    "hex": "043f",
+    "dec": "1087",
+    "name": "EM_HIDESELECTION"
+  },
+  {
+    "hex": "043f",
+    "dec": "1087",
+    "name": "TB_GETBUTTONINFOW"
+  },
+  {
+    "hex": "0440",
+    "dec": "1088",
+    "name": "EM_PASTESPECIAL"
+  },
+  {
+    "hex": "0440",
+    "dec": "1088",
+    "name": "TB_SETBUTTONINFOW"
+  },
+  {
+    "hex": "0441",
+    "dec": "1089",
+    "name": "EM_REQUESTRESIZE"
+  },
+  {
+    "hex": "0441",
+    "dec": "1089",
+    "name": "TB_GETBUTTONINFOA"
+  },
+  {
+    "hex": "0442",
+    "dec": "1090",
+    "name": "EM_SELECTIONTYPE"
+  },
+  {
+    "hex": "0442",
+    "dec": "1090",
+    "name": "TB_SETBUTTONINFOA"
+  },
+  {
+    "hex": "0443",
+    "dec": "1091",
+    "name": "EM_SETBKGNDCOLOR"
+  },
+  {
+    "hex": "0443",
+    "dec": "1091",
+    "name": "TB_INSERTBUTTONW"
+  },
+  {
+    "hex": "0444",
+    "dec": "1092",
+    "name": "EM_SETCHARFORMAT"
+  },
+  {
+    "hex": "0444",
+    "dec": "1092",
+    "name": "TB_ADDBUTTONSW"
+  },
+  {
+    "hex": "0445",
+    "dec": "1093",
+    "name": "EM_SETEVENTMASK"
+  },
+  {
+    "hex": "0445",
+    "dec": "1093",
+    "name": "TB_HITTEST"
+  },
+  {
+    "hex": "0446",
+    "dec": "1094",
+    "name": "EM_SETOLECALLBACK"
+  },
+  {
+    "hex": "0446",
+    "dec": "1094",
+    "name": "TB_SETDRAWTEXTFLAGS"
+  },
+  {
+    "hex": "0447",
+    "dec": "1095",
+    "name": "EM_SETPARAFORMAT"
+  },
+  {
+    "hex": "0447",
+    "dec": "1095",
+    "name": "TB_GETHOTITEM"
+  },
+  {
+    "hex": "0448",
+    "dec": "1096",
+    "name": "EM_SETTARGETDEVICE"
+  },
+  {
+    "hex": "0448",
+    "dec": "1096",
+    "name": "TB_SETHOTITEM"
+  },
+  {
+    "hex": "0449",
+    "dec": "1097",
+    "name": "EM_STREAMIN"
+  },
+  {
+    "hex": "0449",
+    "dec": "1097",
+    "name": "TB_SETANCHORHIGHLIGHT"
+  },
+  {
+    "hex": "044a",
+    "dec": "1098",
+    "name": "EM_STREAMOUT"
+  },
+  {
+    "hex": "044a",
+    "dec": "1098",
+    "name": "TB_GETANCHORHIGHLIGHT"
+  },
+  {
+    "hex": "044b",
+    "dec": "1099",
+    "name": "EM_GETTEXTRANGE"
+  },
+  {
+    "hex": "044b",
+    "dec": "1099",
+    "name": "TB_GETBUTTONTEXTW"
+  },
+  {
+    "hex": "044c",
+    "dec": "1100",
+    "name": "EM_FINDWORDBREAK"
+  },
+  {
+    "hex": "044c",
+    "dec": "1100",
+    "name": "TB_SAVERESTOREW"
+  },
+  {
+    "hex": "044d",
+    "dec": "1101",
+    "name": "EM_SETOPTIONS"
+  },
+  {
+    "hex": "044d",
+    "dec": "1101",
+    "name": "TB_ADDSTRINGW"
+  },
+  {
+    "hex": "044e",
+    "dec": "1102",
+    "name": "EM_GETOPTIONS"
+  },
+  {
+    "hex": "044e",
+    "dec": "1102",
+    "name": "TB_MAPACCELERATORA"
+  },
+  {
+    "hex": "044f",
+    "dec": "1103",
+    "name": "EM_FINDTEXTEX"
+  },
+  {
+    "hex": "044f",
+    "dec": "1103",
+    "name": "TB_GETINSERTMARK"
+  },
+  {
+    "hex": "0450",
+    "dec": "1104",
+    "name": "EM_GETWORDBREAKPROCEX"
+  },
+  {
+    "hex": "0450",
+    "dec": "1104",
+    "name": "TB_SETINSERTMARK"
+  },
+  {
+    "hex": "0451",
+    "dec": "1105",
+    "name": "EM_SETWORDBREAKPROCEX"
+  },
+  {
+    "hex": "0451",
+    "dec": "1105",
+    "name": "TB_INSERTMARKHITTEST"
+  },
+  {
+    "hex": "0452",
+    "dec": "1106",
+    "name": "EM_SETUNDOLIMIT"
+  },
+  {
+    "hex": "0452",
+    "dec": "1106",
+    "name": "TB_MOVEBUTTON"
+  },
+  {
+    "hex": "0453",
+    "dec": "1107",
+    "name": "TB_GETMAXSIZE"
+  },
+  {
+    "hex": "0454",
+    "dec": "1108",
+    "name": "EM_REDO"
+  },
+  {
+    "hex": "0454",
+    "dec": "1108",
+    "name": "TB_SETEXTENDEDSTYLE"
+  },
+  {
+    "hex": "0455",
+    "dec": "1109",
+    "name": "EM_CANREDO"
+  },
+  {
+    "hex": "0455",
+    "dec": "1109",
+    "name": "TB_GETEXTENDEDSTYLE"
+  },
+  {
+    "hex": "0456",
+    "dec": "1110",
+    "name": "EM_GETUNDONAME"
+  },
+  {
+    "hex": "0456",
+    "dec": "1110",
+    "name": "TB_GETPADDING"
+  },
+  {
+    "hex": "0457",
+    "dec": "1111",
+    "name": "EM_GETREDONAME"
+  },
+  {
+    "hex": "0457",
+    "dec": "1111",
+    "name": "TB_SETPADDING"
+  },
+  {
+    "hex": "0458",
+    "dec": "1112",
+    "name": "EM_STOPGROUPTYPING"
+  },
+  {
+    "hex": "0458",
+    "dec": "1112",
+    "name": "TB_SETINSERTMARKCOLOR"
+  },
+  {
+    "hex": "0459",
+    "dec": "1113",
+    "name": "EM_SETTEXTMODE"
+  },
+  {
+    "hex": "0459",
+    "dec": "1113",
+    "name": "TB_GETINSERTMARKCOLOR"
+  },
+  {
+    "hex": "045a",
+    "dec": "1114",
+    "name": "EM_GETTEXTMODE"
+  },
+  {
+    "hex": "045a",
+    "dec": "1114",
+    "name": "TB_MAPACCELERATORW"
+  },
+  {
+    "hex": "045b",
+    "dec": "1115",
+    "name": "EM_AUTOURLDETECT"
+  },
+  {
+    "hex": "045b",
+    "dec": "1115",
+    "name": "TB_GETSTRINGW"
+  },
+  {
+    "hex": "045c",
+    "dec": "1116",
+    "name": "EM_GETAUTOURLDETECT"
+  },
+  {
+    "hex": "045c",
+    "dec": "1116",
+    "name": "TB_GETSTRINGA"
+  },
+  {
+    "hex": "045d",
+    "dec": "1117",
+    "name": "EM_SETPALETTE"
+  },
+  {
+    "hex": "045e",
+    "dec": "1118",
+    "name": "EM_GETTEXTEX"
+  },
+  {
+    "hex": "045f",
+    "dec": "1119",
+    "name": "EM_GETTEXTLENGTHEX"
+  },
+  {
+    "hex": "0460",
+    "dec": "1120",
+    "name": "EM_SHOWSCROLLBAR"
+  },
+  {
+    "hex": "0461",
+    "dec": "1121",
+    "name": "EM_SETTEXTEX"
+  },
+  {
+    "hex": "0463",
+    "dec": "1123",
+    "name": "TAPI_REPLY"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "ACM_OPENA"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "BFFM_SETSTATUSTEXTA"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "CDM_FIRST"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "CDM_GETSPEC"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "EM_SETPUNCTUATION"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "IPM_CLEARADDRESS"
+  },
+  {
+    "hex": "0464",
+    "dec": "1124",
+    "name": "WM_CAP_UNICODE_START"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "ACM_PLAY"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "BFFM_ENABLEOK"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "CDM_GETFILEPATH"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "EM_GETPUNCTUATION"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "IPM_SETADDRESS"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "PSM_SETCURSEL"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "UDM_SETRANGE"
+  },
+  {
+    "hex": "0465",
+    "dec": "1125",
+    "name": "WM_CHOOSEFONT_SETLOGFONT"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "ACM_STOP"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "BFFM_SETSELECTIONA"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "CDM_GETFOLDERPATH"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "EM_SETWORDWRAPMODE"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "IPM_GETADDRESS"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "PSM_REMOVEPAGE"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "UDM_GETRANGE"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "WM_CAP_SET_CALLBACK_ERRORW"
+  },
+  {
+    "hex": "0466",
+    "dec": "1126",
+    "name": "WM_CHOOSEFONT_SETFLAGS"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "ACM_OPENW"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "BFFM_SETSELECTIONW"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "CDM_GETFOLDERIDLIST"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "EM_GETWORDWRAPMODE"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "IPM_SETRANGE"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "PSM_ADDPAGE"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "UDM_SETPOS"
+  },
+  {
+    "hex": "0467",
+    "dec": "1127",
+    "name": "WM_CAP_SET_CALLBACK_STATUSW"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "BFFM_SETSTATUSTEXTW"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "CDM_SETCONTROLTEXT"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "EM_SETIMECOLOR"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "IPM_SETFOCUS"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "PSM_CHANGED"
+  },
+  {
+    "hex": "0468",
+    "dec": "1128",
+    "name": "UDM_GETPOS"
+  },
+  {
+    "hex": "0469",
+    "dec": "1129",
+    "name": "CDM_HIDECONTROL"
+  },
+  {
+    "hex": "0469",
+    "dec": "1129",
+    "name": "EM_GETIMECOLOR"
+  },
+  {
+    "hex": "0469",
+    "dec": "1129",
+    "name": "IPM_ISBLANK"
+  },
+  {
+    "hex": "0469",
+    "dec": "1129",
+    "name": "PSM_RESTARTWINDOWS"
+  },
+  {
+    "hex": "0469",
+    "dec": "1129",
+    "name": "UDM_SETBUDDY"
+  },
+  {
+    "hex": "046a",
+    "dec": "1130",
+    "name": "CDM_SETDEFEXT"
+  },
+  {
+    "hex": "046a",
+    "dec": "1130",
+    "name": "EM_SETIMEOPTIONS"
+  },
+  {
+    "hex": "046a",
+    "dec": "1130",
+    "name": "PSM_REBOOTSYSTEM"
+  },
+  {
+    "hex": "046a",
+    "dec": "1130",
+    "name": "UDM_GETBUDDY"
+  },
+  {
+    "hex": "046b",
+    "dec": "1131",
+    "name": "EM_GETIMEOPTIONS"
+  },
+  {
+    "hex": "046b",
+    "dec": "1131",
+    "name": "PSM_CANCELTOCLOSE"
+  },
+  {
+    "hex": "046b",
+    "dec": "1131",
+    "name": "UDM_SETACCEL"
+  },
+  {
+    "hex": "046c",
+    "dec": "1132",
+    "name": "EM_CONVPOSITION"
+  },
+  {
+    "hex": "046c",
+    "dec": "1132",
+    "name": "EM_CONVPOSITION"
+  },
+  {
+    "hex": "046c",
+    "dec": "1132",
+    "name": "PSM_QUERYSIBLINGS"
+  },
+  {
+    "hex": "046c",
+    "dec": "1132",
+    "name": "UDM_GETACCEL"
+  },
+  {
+    "hex": "046d",
+    "dec": "1133",
+    "name": "MCIWNDM_GETZOOM"
+  },
+  {
+    "hex": "046d",
+    "dec": "1133",
+    "name": "PSM_UNCHANGED"
+  },
+  {
+    "hex": "046d",
+    "dec": "1133",
+    "name": "UDM_SETBASE"
+  },
+  {
+    "hex": "046e",
+    "dec": "1134",
+    "name": "PSM_APPLY"
+  },
+  {
+    "hex": "046e",
+    "dec": "1134",
+    "name": "UDM_GETBASE"
+  },
+  {
+    "hex": "046f",
+    "dec": "1135",
+    "name": "PSM_SETTITLEA"
+  },
+  {
+    "hex": "046f",
+    "dec": "1135",
+    "name": "UDM_SETRANGE32"
+  },
+  {
+    "hex": "0470",
+    "dec": "1136",
+    "name": "PSM_SETWIZBUTTONS"
+  },
+  {
+    "hex": "0470",
+    "dec": "1136",
+    "name": "UDM_GETRANGE32"
+  },
+  {
+    "hex": "0470",
+    "dec": "1136",
+    "name": "WM_CAP_DRIVER_GET_NAMEW"
+  },
+  {
+    "hex": "0471",
+    "dec": "1137",
+    "name": "PSM_PRESSBUTTON"
+  },
+  {
+    "hex": "0471",
+    "dec": "1137",
+    "name": "UDM_SETPOS32"
+  },
+  {
+    "hex": "0471",
+    "dec": "1137",
+    "name": "WM_CAP_DRIVER_GET_VERSIONW"
+  },
+  {
+    "hex": "0472",
+    "dec": "1138",
+    "name": "PSM_SETCURSELID"
+  },
+  {
+    "hex": "0472",
+    "dec": "1138",
+    "name": "UDM_GETPOS32"
+  },
+  {
+    "hex": "0473",
+    "dec": "1139",
+    "name": "PSM_SETFINISHTEXTA"
+  },
+  {
+    "hex": "0474",
+    "dec": "1140",
+    "name": "PSM_GETTABCONTROL"
+  },
+  {
+    "hex": "0475",
+    "dec": "1141",
+    "name": "PSM_ISDIALOGMESSAGE"
+  },
+  {
+    "hex": "0476",
+    "dec": "1142",
+    "name": "MCIWNDM_REALIZE"
+  },
+  {
+    "hex": "0476",
+    "dec": "1142",
+    "name": "PSM_GETCURRENTPAGEHWND"
+  },
+  {
+    "hex": "0477",
+    "dec": "1143",
+    "name": "MCIWNDM_SETTIMEFORMATA"
+  },
+  {
+    "hex": "0477",
+    "dec": "1143",
+    "name": "PSM_INSERTPAGE"
+  },
+  {
+    "hex": "0478",
+    "dec": "1144",
+    "name": "EM_SETLANGOPTIONS"
+  },
+  {
+    "hex": "0478",
+    "dec": "1144",
+    "name": "MCIWNDM_GETTIMEFORMATA"
+  },
+  {
+    "hex": "0478",
+    "dec": "1144",
+    "name": "PSM_SETTITLEW"
+  },
+  {
+    "hex": "0478",
+    "dec": "1144",
+    "name": "WM_CAP_FILE_SET_CAPTURE_FILEW"
+  },
+  {
+    "hex": "0479",
+    "dec": "1145",
+    "name": "EM_GETLANGOPTIONS"
+  },
+  {
+    "hex": "0479",
+    "dec": "1145",
+    "name": "MCIWNDM_VALIDATEMEDIA"
+  },
+  {
+    "hex": "0479",
+    "dec": "1145",
+    "name": "PSM_SETFINISHTEXTW"
+  },
+  {
+    "hex": "0479",
+    "dec": "1145",
+    "name": "WM_CAP_FILE_GET_CAPTURE_FILEW"
+  },
+  {
+    "hex": "047a",
+    "dec": "1146",
+    "name": "EM_GETIMECOMPMODE"
+  },
+  {
+    "hex": "047b",
+    "dec": "1147",
+    "name": "EM_FINDTEXTW"
+  },
+  {
+    "hex": "047b",
+    "dec": "1147",
+    "name": "MCIWNDM_PLAYTO"
+  },
+  {
+    "hex": "047b",
+    "dec": "1147",
+    "name": "WM_CAP_FILE_SAVEASW"
+  },
+  {
+    "hex": "047c",
+    "dec": "1148",
+    "name": "EM_FINDTEXTEXW"
+  },
+  {
+    "hex": "047c",
+    "dec": "1148",
+    "name": "MCIWNDM_GETFILENAMEA"
+  },
+  {
+    "hex": "047d",
+    "dec": "1149",
+    "name": "EM_RECONVERSION"
+  },
+  {
+    "hex": "047d",
+    "dec": "1149",
+    "name": "MCIWNDM_GETDEVICEA"
+  },
+  {
+    "hex": "047d",
+    "dec": "1149",
+    "name": "PSM_SETHEADERTITLEA"
+  },
+  {
+    "hex": "047d",
+    "dec": "1149",
+    "name": "WM_CAP_FILE_SAVEDIBW"
+  },
+  {
+    "hex": "047e",
+    "dec": "1150",
+    "name": "EM_SETIMEMODEBIAS"
+  },
+  {
+    "hex": "047e",
+    "dec": "1150",
+    "name": "MCIWNDM_GETPALETTE"
+  },
+  {
+    "hex": "047e",
+    "dec": "1150",
+    "name": "PSM_SETHEADERTITLEW"
+  },
+  {
+    "hex": "047f",
+    "dec": "1151",
+    "name": "EM_GETIMEMODEBIAS"
+  },
+  {
+    "hex": "047f",
+    "dec": "1151",
+    "name": "MCIWNDM_SETPALETTE"
+  },
+  {
+    "hex": "047f",
+    "dec": "1151",
+    "name": "PSM_SETHEADERSUBTITLEA"
+  },
+  {
+    "hex": "0480",
+    "dec": "1152",
+    "name": "MCIWNDM_GETERRORA"
+  },
+  {
+    "hex": "0480",
+    "dec": "1152",
+    "name": "PSM_SETHEADERSUBTITLEW"
+  },
+  {
+    "hex": "0481",
+    "dec": "1153",
+    "name": "PSM_HWNDTOINDEX"
+  },
+  {
+    "hex": "0482",
+    "dec": "1154",
+    "name": "PSM_INDEXTOHWND"
+  },
+  {
+    "hex": "0483",
+    "dec": "1155",
+    "name": "MCIWNDM_SETINACTIVETIMER"
+  },
+  {
+    "hex": "0483",
+    "dec": "1155",
+    "name": "PSM_PAGETOINDEX"
+  },
+  {
+    "hex": "0484",
+    "dec": "1156",
+    "name": "PSM_INDEXTOPAGE"
+  },
+  {
+    "hex": "0485",
+    "dec": "1157",
+    "name": "DL_BEGINDRAG"
+  },
+  {
+    "hex": "0485",
+    "dec": "1157",
+    "name": "MCIWNDM_GETINACTIVETIMER"
+  },
+  {
+    "hex": "0485",
+    "dec": "1157",
+    "name": "PSM_IDTOINDEX"
+  },
+  {
+    "hex": "0486",
+    "dec": "1158",
+    "name": "DL_DRAGGING"
+  },
+  {
+    "hex": "0486",
+    "dec": "1158",
+    "name": "PSM_INDEXTOID"
+  },
+  {
+    "hex": "0487",
+    "dec": "1159",
+    "name": "DL_DROPPED"
+  },
+  {
+    "hex": "0487",
+    "dec": "1159",
+    "name": "PSM_GETRESULT"
+  },
+  {
+    "hex": "0488",
+    "dec": "1160",
+    "name": "DL_CANCELDRAG"
+  },
+  {
+    "hex": "0488",
+    "dec": "1160",
+    "name": "PSM_RECALCPAGESIZES"
+  },
+  {
+    "hex": "048c",
+    "dec": "1164",
+    "name": "MCIWNDM_GET_SOURCE"
+  },
+  {
+    "hex": "048d",
+    "dec": "1165",
+    "name": "MCIWNDM_PUT_SOURCE"
+  },
+  {
+    "hex": "048e",
+    "dec": "1166",
+    "name": "MCIWNDM_GET_DEST"
+  },
+  {
+    "hex": "048f",
+    "dec": "1167",
+    "name": "MCIWNDM_PUT_DEST"
+  },
+  {
+    "hex": "0490",
+    "dec": "1168",
+    "name": "MCIWNDM_CAN_PLAY"
+  },
+  {
+    "hex": "0491",
+    "dec": "1169",
+    "name": "MCIWNDM_CAN_WINDOW"
+  },
+  {
+    "hex": "0492",
+    "dec": "1170",
+    "name": "MCIWNDM_CAN_RECORD"
+  },
+  {
+    "hex": "0493",
+    "dec": "1171",
+    "name": "MCIWNDM_CAN_SAVE"
+  },
+  {
+    "hex": "0494",
+    "dec": "1172",
+    "name": "MCIWNDM_CAN_EJECT"
+  },
+  {
+    "hex": "0495",
+    "dec": "1173",
+    "name": "MCIWNDM_CAN_CONFIG"
+  },
+  {
+    "hex": "0496",
+    "dec": "1174",
+    "name": "IE_GETINK"
+  },
+  {
+    "hex": "0496",
+    "dec": "1174",
+    "name": "IE_MSGFIRST"
+  },
+  {
+    "hex": "0496",
+    "dec": "1174",
+    "name": "MCIWNDM_PALETTEKICK"
+  },
+  {
+    "hex": "0497",
+    "dec": "1175",
+    "name": "IE_SETINK"
+  },
+  {
+    "hex": "0498",
+    "dec": "1176",
+    "name": "IE_GETPENTIP"
+  },
+  {
+    "hex": "0499",
+    "dec": "1177",
+    "name": "IE_SETPENTIP"
+  },
+  {
+    "hex": "049a",
+    "dec": "1178",
+    "name": "IE_GETERASERTIP"
+  },
+  {
+    "hex": "049b",
+    "dec": "1179",
+    "name": "IE_SETERASERTIP"
+  },
+  {
+    "hex": "049c",
+    "dec": "1180",
+    "name": "IE_GETBKGND"
+  },
+  {
+    "hex": "049d",
+    "dec": "1181",
+    "name": "IE_SETBKGND"
+  },
+  {
+    "hex": "049e",
+    "dec": "1182",
+    "name": "IE_GETGRIDORIGIN"
+  },
+  {
+    "hex": "049f",
+    "dec": "1183",
+    "name": "IE_SETGRIDORIGIN"
+  },
+  {
+    "hex": "04a0",
+    "dec": "1184",
+    "name": "IE_GETGRIDPEN"
+  },
+  {
+    "hex": "04a1",
+    "dec": "1185",
+    "name": "IE_SETGRIDPEN"
+  },
+  {
+    "hex": "04a2",
+    "dec": "1186",
+    "name": "IE_GETGRIDSIZE"
+  },
+  {
+    "hex": "04a3",
+    "dec": "1187",
+    "name": "IE_SETGRIDSIZE"
+  },
+  {
+    "hex": "04a4",
+    "dec": "1188",
+    "name": "IE_GETMODE"
+  },
+  {
+    "hex": "04a5",
+    "dec": "1189",
+    "name": "IE_SETMODE"
+  },
+  {
+    "hex": "04a6",
+    "dec": "1190",
+    "name": "IE_GETINKRECT"
+  },
+  {
+    "hex": "04a6",
+    "dec": "1190",
+    "name": "WM_CAP_SET_MCI_DEVICEW"
+  },
+  {
+    "hex": "04a7",
+    "dec": "1191",
+    "name": "WM_CAP_GET_MCI_DEVICEW"
+  },
+  {
+    "hex": "04b4",
+    "dec": "1204",
+    "name": "WM_CAP_PAL_OPENW"
+  },
+  {
+    "hex": "04b5",
+    "dec": "1205",
+    "name": "WM_CAP_PAL_SAVEW"
+  },
+  {
+    "hex": "04b8",
+    "dec": "1208",
+    "name": "IE_GETAPPDATA"
+  },
+  {
+    "hex": "04b9",
+    "dec": "1209",
+    "name": "IE_SETAPPDATA"
+  },
+  {
+    "hex": "04ba",
+    "dec": "1210",
+    "name": "IE_GETDRAWOPTS"
+  },
+  {
+    "hex": "04bb",
+    "dec": "1211",
+    "name": "IE_SETDRAWOPTS"
+  },
+  {
+    "hex": "04bc",
+    "dec": "1212",
+    "name": "IE_GETFORMAT"
+  },
+  {
+    "hex": "04bd",
+    "dec": "1213",
+    "name": "IE_SETFORMAT"
+  },
+  {
+    "hex": "04be",
+    "dec": "1214",
+    "name": "IE_GETINKINPUT"
+  },
+  {
+    "hex": "04bf",
+    "dec": "1215",
+    "name": "IE_SETINKINPUT"
+  },
+  {
+    "hex": "04c0",
+    "dec": "1216",
+    "name": "IE_GETNOTIFY"
+  },
+  {
+    "hex": "04c1",
+    "dec": "1217",
+    "name": "IE_SETNOTIFY"
+  },
+  {
+    "hex": "04c2",
+    "dec": "1218",
+    "name": "IE_GETRECOG"
+  },
+  {
+    "hex": "04c3",
+    "dec": "1219",
+    "name": "IE_SETRECOG"
+  },
+  {
+    "hex": "04c4",
+    "dec": "1220",
+    "name": "IE_GETSECURITY"
+  },
+  {
+    "hex": "04c5",
+    "dec": "1221",
+    "name": "IE_SETSECURITY"
+  },
+  {
+    "hex": "04c6",
+    "dec": "1222",
+    "name": "IE_GETSEL"
+  },
+  {
+    "hex": "04c7",
+    "dec": "1223",
+    "name": "IE_SETSEL"
+  },
+  {
+    "hex": "04c8",
+    "dec": "1224",
+    "name": "CDM_LAST"
+  },
+  {
+    "hex": "04c8",
+    "dec": "1224",
+    "name": "EM_SETBIDIOPTIONS"
+  },
+  {
+    "hex": "04c8",
+    "dec": "1224",
+    "name": "IE_DOCOMMAND"
+  },
+  {
+    "hex": "04c8",
+    "dec": "1224",
+    "name": "MCIWNDM_NOTIFYMODE"
+  },
+  {
+    "hex": "04c9",
+    "dec": "1225",
+    "name": "EM_GETBIDIOPTIONS"
+  },
+  {
+    "hex": "04c9",
+    "dec": "1225",
+    "name": "IE_GETCOMMAND"
+  },
+  {
+    "hex": "04ca",
+    "dec": "1226",
+    "name": "EM_SETTYPOGRAPHYOPTIONS"
+  },
+  {
+    "hex": "04ca",
+    "dec": "1226",
+    "name": "IE_GETCOUNT"
+  },
+  {
+    "hex": "04cb",
+    "dec": "1227",
+    "name": "EM_GETTYPOGRAPHYOPTIONS"
+  },
+  {
+    "hex": "04cb",
+    "dec": "1227",
+    "name": "IE_GETGESTURE"
+  },
+  {
+    "hex": "04cb",
+    "dec": "1227",
+    "name": "MCIWNDM_NOTIFYMEDIA"
+  },
+  {
+    "hex": "04cc",
+    "dec": "1228",
+    "name": "EM_SETEDITSTYLE"
+  },
+  {
+    "hex": "04cc",
+    "dec": "1228",
+    "name": "IE_GETMENU"
+  },
+  {
+    "hex": "04cd",
+    "dec": "1229",
+    "name": "EM_GETEDITSTYLE"
+  },
+  {
+    "hex": "04cd",
+    "dec": "1229",
+    "name": "IE_GETPAINTDC"
+  },
+  {
+    "hex": "04cd",
+    "dec": "1229",
+    "name": "MCIWNDM_NOTIFYERROR"
+  },
+  {
+    "hex": "04ce",
+    "dec": "1230",
+    "name": "IE_GETPDEVENT"
+  },
+  {
+    "hex": "04cf",
+    "dec": "1231",
+    "name": "IE_GETSELCOUNT"
+  },
+  {
+    "hex": "04d0",
+    "dec": "1232",
+    "name": "IE_GETSELITEMS"
+  },
+  {
+    "hex": "04d1",
+    "dec": "1233",
+    "name": "IE_GETSTYLE"
+  },
+  {
+    "hex": "04db",
+    "dec": "1243",
+    "name": "MCIWNDM_SETTIMEFORMATW"
+  },
+  {
+    "hex": "04dc",
+    "dec": "1244",
+    "name": "EM_OUTLINE"
+  },
+  {
+    "hex": "04dc",
+    "dec": "1244",
+    "name": "EM_OUTLINE"
+  },
+  {
+    "hex": "04dc",
+    "dec": "1244",
+    "name": "MCIWNDM_GETTIMEFORMATW"
+  },
+  {
+    "hex": "04dd",
+    "dec": "1245",
+    "name": "EM_GETSCROLLPOS"
+  },
+  {
+    "hex": "04dd",
+    "dec": "1245",
+    "name": "EM_GETSCROLLPOS"
+  },
+  {
+    "hex": "04de",
+    "dec": "1246",
+    "name": "EM_SETSCROLLPOS"
+  },
+  {
+    "hex": "04de",
+    "dec": "1246",
+    "name": "EM_SETSCROLLPOS"
+  },
+  {
+    "hex": "04df",
+    "dec": "1247",
+    "name": "EM_SETFONTSIZE"
+  },
+  {
+    "hex": "04df",
+    "dec": "1247",
+    "name": "EM_SETFONTSIZE"
+  },
+  {
+    "hex": "04e0",
+    "dec": "1248",
+    "name": "EM_GETZOOM"
+  },
+  {
+    "hex": "04e0",
+    "dec": "1248",
+    "name": "MCIWNDM_GETFILENAMEW"
+  },
+  {
+    "hex": "04e1",
+    "dec": "1249",
+    "name": "EM_SETZOOM"
+  },
+  {
+    "hex": "04e1",
+    "dec": "1249",
+    "name": "MCIWNDM_GETDEVICEW"
+  },
+  {
+    "hex": "04e2",
+    "dec": "1250",
+    "name": "EM_GETVIEWKIND"
+  },
+  {
+    "hex": "04e3",
+    "dec": "1251",
+    "name": "EM_SETVIEWKIND"
+  },
+  {
+    "hex": "04e4",
+    "dec": "1252",
+    "name": "EM_GETPAGE"
+  },
+  {
+    "hex": "04e4",
+    "dec": "1252",
+    "name": "MCIWNDM_GETERRORW"
+  },
+  {
+    "hex": "04e5",
+    "dec": "1253",
+    "name": "EM_SETPAGE"
+  },
+  {
+    "hex": "04e6",
+    "dec": "1254",
+    "name": "EM_GETHYPHENATEINFO"
+  },
+  {
+    "hex": "04e7",
+    "dec": "1255",
+    "name": "EM_SETHYPHENATEINFO"
+  },
+  {
+    "hex": "04eb",
+    "dec": "1259",
+    "name": "EM_GETPAGEROTATE"
+  },
+  {
+    "hex": "04ec",
+    "dec": "1260",
+    "name": "EM_SETPAGEROTATE"
+  },
+  {
+    "hex": "04ed",
+    "dec": "1261",
+    "name": "EM_GETCTFMODEBIAS"
+  },
+  {
+    "hex": "04ee",
+    "dec": "1262",
+    "name": "EM_SETCTFMODEBIAS"
+  },
+  {
+    "hex": "04f0",
+    "dec": "1264",
+    "name": "EM_GETCTFOPENSTATUS"
+  },
+  {
+    "hex": "04f1",
+    "dec": "1265",
+    "name": "EM_SETCTFOPENSTATUS"
+  },
+  {
+    "hex": "04f2",
+    "dec": "1266",
+    "name": "EM_GETIMECOMPTEXT"
+  },
+  {
+    "hex": "04f3",
+    "dec": "1267",
+    "name": "EM_ISIME"
+  },
+  {
+    "hex": "04f4",
+    "dec": "1268",
+    "name": "EM_GETIMEPROPERTY"
+  },
+  {
+    "hex": "050d",
+    "dec": "1293",
+    "name": "EM_GETQUERYRTFOBJ"
+  },
+  {
+    "hex": "050e",
+    "dec": "1294",
+    "name": "EM_SETQUERYRTFOBJ"
+  },
+  {
+    "hex": "0600",
+    "dec": "1536",
+    "name": "FM_GETFOCUS"
+  },
+  {
+    "hex": "0601",
+    "dec": "1537",
+    "name": "FM_GETDRIVEINFOA"
+  },
+  {
+    "hex": "0602",
+    "dec": "1538",
+    "name": "FM_GETSELCOUNT"
+  },
+  {
+    "hex": "0603",
+    "dec": "1539",
+    "name": "FM_GETSELCOUNTLFN"
+  },
+  {
+    "hex": "0604",
+    "dec": "1540",
+    "name": "FM_GETFILESELA"
+  },
+  {
+    "hex": "0605",
+    "dec": "1541",
+    "name": "FM_GETFILESELLFNA"
+  },
+  {
+    "hex": "0606",
+    "dec": "1542",
+    "name": "FM_REFRESH_WINDOWS"
+  },
+  {
+    "hex": "0607",
+    "dec": "1543",
+    "name": "FM_RELOAD_EXTENSIONS"
+  },
+  {
+    "hex": "0611",
+    "dec": "1553",
+    "name": "FM_GETDRIVEINFOW"
+  },
+  {
+    "hex": "0614",
+    "dec": "1556",
+    "name": "FM_GETFILESELW"
+  },
+  {
+    "hex": "0615",
+    "dec": "1557",
+    "name": "FM_GETFILESELLFNW"
+  },
+  {
+    "hex": "0659",
+    "dec": "1625",
+    "name": "WLX_WM_SAS"
+  },
+  {
+    "hex": "07e8",
+    "dec": "2024",
+    "name": "SM_GETSELCOUNT"
+  },
+  {
+    "hex": "07e8",
+    "dec": "2024",
+    "name": "UM_GETSELCOUNT"
+  },
+  {
+    "hex": "07e8",
+    "dec": "2024",
+    "name": "WM_CPL_LAUNCH"
+  },
+  {
+    "hex": "07e9",
+    "dec": "2025",
+    "name": "SM_GETSERVERSELA"
+  },
+  {
+    "hex": "07e9",
+    "dec": "2025",
+    "name": "UM_GETUSERSELA"
+  },
+  {
+    "hex": "07e9",
+    "dec": "2025",
+    "name": "WM_CPL_LAUNCHED"
+  },
+  {
+    "hex": "07ea",
+    "dec": "2026",
+    "name": "SM_GETSERVERSELW"
+  },
+  {
+    "hex": "07ea",
+    "dec": "2026",
+    "name": "UM_GETUSERSELW"
+  },
+  {
+    "hex": "07eb",
+    "dec": "2027",
+    "name": "SM_GETCURFOCUSA"
+  },
+  {
+    "hex": "07eb",
+    "dec": "2027",
+    "name": "UM_GETGROUPSELA"
+  },
+  {
+    "hex": "07ec",
+    "dec": "2028",
+    "name": "SM_GETCURFOCUSW"
+  },
+  {
+    "hex": "07ec",
+    "dec": "2028",
+    "name": "UM_GETGROUPSELW"
+  },
+  {
+    "hex": "07ed",
+    "dec": "2029",
+    "name": "SM_GETOPTIONS"
+  },
+  {
+    "hex": "07ed",
+    "dec": "2029",
+    "name": "UM_GETCURFOCUSA"
+  },
+  {
+    "hex": "07ee",
+    "dec": "2030",
+    "name": "UM_GETCURFOCUSW"
+  },
+  {
+    "hex": "07ef",
+    "dec": "2031",
+    "name": "UM_GETOPTIONS"
+  },
+  {
+    "hex": "07f0",
+    "dec": "2032",
+    "name": "UM_GETOPTIONS2"
+  },
+  {
+    "hex": "1000",
+    "dec": "4096",
+    "name": "LVM_FIRST"
+  },
+  {
+    "hex": "1000",
+    "dec": "4096",
+    "name": "LVM_GETBKCOLOR"
+  },
+  {
+    "hex": "1001",
+    "dec": "4097",
+    "name": "LVM_SETBKCOLOR"
+  },
+  {
+    "hex": "1002",
+    "dec": "4098",
+    "name": "LVM_GETIMAGELIST"
+  },
+  {
+    "hex": "1003",
+    "dec": "4099",
+    "name": "LVM_SETIMAGELIST"
+  },
+  {
+    "hex": "1004",
+    "dec": "4100",
+    "name": "LVM_GETITEMCOUNT"
+  },
+  {
+    "hex": "1005",
+    "dec": "4101",
+    "name": "LVM_GETITEMA"
+  },
+  {
+    "hex": "1006",
+    "dec": "4102",
+    "name": "LVM_SETITEMA"
+  },
+  {
+    "hex": "1007",
+    "dec": "4103",
+    "name": "LVM_INSERTITEMA"
+  },
+  {
+    "hex": "1008",
+    "dec": "4104",
+    "name": "LVM_DELETEITEM"
+  },
+  {
+    "hex": "1009",
+    "dec": "4105",
+    "name": "LVM_DELETEALLITEMS"
+  },
+  {
+    "hex": "100a",
+    "dec": "4106",
+    "name": "LVM_GETCALLBACKMASK"
+  },
+  {
+    "hex": "100b",
+    "dec": "4107",
+    "name": "LVM_SETCALLBACKMASK"
+  },
+  {
+    "hex": "100c",
+    "dec": "4108",
+    "name": "LVM_GETNEXTITEM"
+  },
+  {
+    "hex": "100d",
+    "dec": "4109",
+    "name": "LVM_FINDITEMA"
+  },
+  {
+    "hex": "100e",
+    "dec": "4110",
+    "name": "LVM_GETITEMRECT"
+  },
+  {
+    "hex": "100f",
+    "dec": "4111",
+    "name": "LVM_SETITEMPOSITION"
+  },
+  {
+    "hex": "1010",
+    "dec": "4112",
+    "name": "LVM_GETITEMPOSITION"
+  },
+  {
+    "hex": "1011",
+    "dec": "4113",
+    "name": "LVM_GETSTRINGWIDTHA"
+  },
+  {
+    "hex": "1012",
+    "dec": "4114",
+    "name": "LVM_HITTEST"
+  },
+  {
+    "hex": "1013",
+    "dec": "4115",
+    "name": "LVM_ENSUREVISIBLE"
+  },
+  {
+    "hex": "1014",
+    "dec": "4116",
+    "name": "LVM_SCROLL"
+  },
+  {
+    "hex": "1015",
+    "dec": "4117",
+    "name": "LVM_REDRAWITEMS"
+  },
+  {
+    "hex": "1016",
+    "dec": "4118",
+    "name": "LVM_ARRANGE"
+  },
+  {
+    "hex": "1017",
+    "dec": "4119",
+    "name": "LVM_EDITLABELA"
+  },
+  {
+    "hex": "1018",
+    "dec": "4120",
+    "name": "LVM_GETEDITCONTROL"
+  },
+  {
+    "hex": "1019",
+    "dec": "4121",
+    "name": "LVM_GETCOLUMNA"
+  },
+  {
+    "hex": "101a",
+    "dec": "4122",
+    "name": "LVM_SETCOLUMNA"
+  },
+  {
+    "hex": "101b",
+    "dec": "4123",
+    "name": "LVM_INSERTCOLUMNA"
+  },
+  {
+    "hex": "101c",
+    "dec": "4124",
+    "name": "LVM_DELETECOLUMN"
+  },
+  {
+    "hex": "101d",
+    "dec": "4125",
+    "name": "LVM_GETCOLUMNWIDTH"
+  },
+  {
+    "hex": "101e",
+    "dec": "4126",
+    "name": "LVM_SETCOLUMNWIDTH"
+  },
+  {
+    "hex": "101f",
+    "dec": "4127",
+    "name": "LVM_GETHEADER"
+  },
+  {
+    "hex": "1021",
+    "dec": "4129",
+    "name": "LVM_CREATEDRAGIMAGE"
+  },
+  {
+    "hex": "1022",
+    "dec": "4130",
+    "name": "LVM_GETVIEWRECT"
+  },
+  {
+    "hex": "1023",
+    "dec": "4131",
+    "name": "LVM_GETTEXTCOLOR"
+  },
+  {
+    "hex": "1024",
+    "dec": "4132",
+    "name": "LVM_SETTEXTCOLOR"
+  },
+  {
+    "hex": "1025",
+    "dec": "4133",
+    "name": "LVM_GETTEXTBKCOLOR"
+  },
+  {
+    "hex": "1026",
+    "dec": "4134",
+    "name": "LVM_SETTEXTBKCOLOR"
+  },
+  {
+    "hex": "1027",
+    "dec": "4135",
+    "name": "LVM_GETTOPINDEX"
+  },
+  {
+    "hex": "1028",
+    "dec": "4136",
+    "name": "LVM_GETCOUNTPERPAGE"
+  },
+  {
+    "hex": "1029",
+    "dec": "4137",
+    "name": "LVM_GETORIGIN"
+  },
+  {
+    "hex": "102a",
+    "dec": "4138",
+    "name": "LVM_UPDATE"
+  },
+  {
+    "hex": "102b",
+    "dec": "4139",
+    "name": "LVM_SETITEMSTATE"
+  },
+  {
+    "hex": "102c",
+    "dec": "4140",
+    "name": "LVM_GETITEMSTATE"
+  },
+  {
+    "hex": "102d",
+    "dec": "4141",
+    "name": "LVM_GETITEMTEXTA"
+  },
+  {
+    "hex": "102e",
+    "dec": "4142",
+    "name": "LVM_SETITEMTEXTA"
+  },
+  {
+    "hex": "102f",
+    "dec": "4143",
+    "name": "LVM_SETITEMCOUNT"
+  },
+  {
+    "hex": "1030",
+    "dec": "4144",
+    "name": "LVM_SORTITEMS"
+  },
+  {
+    "hex": "1031",
+    "dec": "4145",
+    "name": "LVM_SETITEMPOSITION32"
+  },
+  {
+    "hex": "1032",
+    "dec": "4146",
+    "name": "LVM_GETSELECTEDCOUNT"
+  },
+  {
+    "hex": "1033",
+    "dec": "4147",
+    "name": "LVM_GETITEMSPACING"
+  },
+  {
+    "hex": "1034",
+    "dec": "4148",
+    "name": "LVM_GETISEARCHSTRINGA"
+  },
+  {
+    "hex": "1035",
+    "dec": "4149",
+    "name": "LVM_SETICONSPACING"
+  },
+  {
+    "hex": "1036",
+    "dec": "4150",
+    "name": "LVM_SETEXTENDEDLISTVIEWSTYLE"
+  },
+  {
+    "hex": "1037",
+    "dec": "4151",
+    "name": "LVM_GETEXTENDEDLISTVIEWSTYLE"
+  },
+  {
+    "hex": "1038",
+    "dec": "4152",
+    "name": "LVM_GETSUBITEMRECT"
+  },
+  {
+    "hex": "1039",
+    "dec": "4153",
+    "name": "LVM_SUBITEMHITTEST"
+  },
+  {
+    "hex": "103a",
+    "dec": "4154",
+    "name": "LVM_SETCOLUMNORDERARRAY"
+  },
+  {
+    "hex": "103b",
+    "dec": "4155",
+    "name": "LVM_GETCOLUMNORDERARRAY"
+  },
+  {
+    "hex": "103c",
+    "dec": "4156",
+    "name": "LVM_SETHOTITEM"
+  },
+  {
+    "hex": "103d",
+    "dec": "4157",
+    "name": "LVM_GETHOTITEM"
+  },
+  {
+    "hex": "103e",
+    "dec": "4158",
+    "name": "LVM_SETHOTCURSOR"
+  },
+  {
+    "hex": "103f",
+    "dec": "4159",
+    "name": "LVM_GETHOTCURSOR"
+  },
+  {
+    "hex": "1040",
+    "dec": "4160",
+    "name": "LVM_APPROXIMATEVIEWRECT"
+  },
+  {
+    "hex": "1041",
+    "dec": "4161",
+    "name": "LVM_SETWORKAREAS"
+  },
+  {
+    "hex": "1042",
+    "dec": "4162",
+    "name": "LVM_GETSELECTIONMARK"
+  },
+  {
+    "hex": "1043",
+    "dec": "4163",
+    "name": "LVM_SETSELECTIONMARK"
+  },
+  {
+    "hex": "1044",
+    "dec": "4164",
+    "name": "LVM_SETBKIMAGEA"
+  },
+  {
+    "hex": "1045",
+    "dec": "4165",
+    "name": "LVM_GETBKIMAGEA"
+  },
+  {
+    "hex": "1046",
+    "dec": "4166",
+    "name": "LVM_GETWORKAREAS"
+  },
+  {
+    "hex": "1047",
+    "dec": "4167",
+    "name": "LVM_SETHOVERTIME"
+  },
+  {
+    "hex": "1048",
+    "dec": "4168",
+    "name": "LVM_GETHOVERTIME"
+  },
+  {
+    "hex": "1049",
+    "dec": "4169",
+    "name": "LVM_GETNUMBEROFWORKAREAS"
+  },
+  {
+    "hex": "104a",
+    "dec": "4170",
+    "name": "LVM_SETTOOLTIPS"
+  },
+  {
+    "hex": "104b",
+    "dec": "4171",
+    "name": "LVM_GETITEMW"
+  },
+  {
+    "hex": "104c",
+    "dec": "4172",
+    "name": "LVM_SETITEMW"
+  },
+  {
+    "hex": "104d",
+    "dec": "4173",
+    "name": "LVM_INSERTITEMW"
+  },
+  {
+    "hex": "104e",
+    "dec": "4174",
+    "name": "LVM_GETTOOLTIPS"
+  },
+  {
+    "hex": "1053",
+    "dec": "4179",
+    "name": "LVM_FINDITEMW"
+  },
+  {
+    "hex": "1057",
+    "dec": "4183",
+    "name": "LVM_GETSTRINGWIDTHW"
+  },
+  {
+    "hex": "105f",
+    "dec": "4191",
+    "name": "LVM_GETCOLUMNW"
+  },
+  {
+    "hex": "1060",
+    "dec": "4192",
+    "name": "LVM_SETCOLUMNW"
+  },
+  {
+    "hex": "1061",
+    "dec": "4193",
+    "name": "LVM_INSERTCOLUMNW"
+  },
+  {
+    "hex": "1073",
+    "dec": "4211",
+    "name": "LVM_GETITEMTEXTW"
+  },
+  {
+    "hex": "1074",
+    "dec": "4212",
+    "name": "LVM_SETITEMTEXTW"
+  },
+  {
+    "hex": "1075",
+    "dec": "4213",
+    "name": "LVM_GETISEARCHSTRINGW"
+  },
+  {
+    "hex": "1076",
+    "dec": "4214",
+    "name": "LVM_EDITLABELW"
+  },
+  {
+    "hex": "108b",
+    "dec": "4235",
+    "name": "LVM_GETBKIMAGEW"
+  },
+  {
+    "hex": "108c",
+    "dec": "4236",
+    "name": "LVM_SETSELECTEDCOLUMN"
+  },
+  {
+    "hex": "108d",
+    "dec": "4237",
+    "name": "LVM_SETTILEWIDTH"
+  },
+  {
+    "hex": "108e",
+    "dec": "4238",
+    "name": "LVM_SETVIEW"
+  },
+  {
+    "hex": "108f",
+    "dec": "4239",
+    "name": "LVM_GETVIEW"
+  },
+  {
+    "hex": "1091",
+    "dec": "4241",
+    "name": "LVM_INSERTGROUP"
+  },
+  {
+    "hex": "1093",
+    "dec": "4243",
+    "name": "LVM_SETGROUPINFO"
+  },
+  {
+    "hex": "1095",
+    "dec": "4245",
+    "name": "LVM_GETGROUPINFO"
+  },
+  {
+    "hex": "1096",
+    "dec": "4246",
+    "name": "LVM_REMOVEGROUP"
+  },
+  {
+    "hex": "1097",
+    "dec": "4247",
+    "name": "LVM_MOVEGROUP"
+  },
+  {
+    "hex": "109a",
+    "dec": "4250",
+    "name": "LVM_MOVEITEMTOGROUP"
+  },
+  {
+    "hex": "109b",
+    "dec": "4251",
+    "name": "LVM_SETGROUPMETRICS"
+  },
+  {
+    "hex": "109c",
+    "dec": "4252",
+    "name": "LVM_GETGROUPMETRICS"
+  },
+  {
+    "hex": "109d",
+    "dec": "4253",
+    "name": "LVM_ENABLEGROUPVIEW"
+  },
+  {
+    "hex": "109e",
+    "dec": "4254",
+    "name": "LVM_SORTGROUPS"
+  },
+  {
+    "hex": "109f",
+    "dec": "4255",
+    "name": "LVM_INSERTGROUPSORTED"
+  },
+  {
+    "hex": "10a0",
+    "dec": "4256",
+    "name": "LVM_REMOVEALLGROUPS"
+  },
+  {
+    "hex": "10a1",
+    "dec": "4257",
+    "name": "LVM_HASGROUP"
+  },
+  {
+    "hex": "10a2",
+    "dec": "4258",
+    "name": "LVM_SETTILEVIEWINFO"
+  },
+  {
+    "hex": "10a3",
+    "dec": "4259",
+    "name": "LVM_GETTILEVIEWINFO"
+  },
+  {
+    "hex": "10a4",
+    "dec": "4260",
+    "name": "LVM_SETTILEINFO"
+  },
+  {
+    "hex": "10a5",
+    "dec": "4261",
+    "name": "LVM_GETTILEINFO"
+  },
+  {
+    "hex": "10a6",
+    "dec": "4262",
+    "name": "LVM_SETINSERTMARK"
+  },
+  {
+    "hex": "10a7",
+    "dec": "4263",
+    "name": "LVM_GETINSERTMARK"
+  },
+  {
+    "hex": "10a8",
+    "dec": "4264",
+    "name": "LVM_INSERTMARKHITTEST"
+  },
+  {
+    "hex": "10a9",
+    "dec": "4265",
+    "name": "LVM_GETINSERTMARKRECT"
+  },
+  {
+    "hex": "10aa",
+    "dec": "4266",
+    "name": "LVM_SETINSERTMARKCOLOR"
+  },
+  {
+    "hex": "10ab",
+    "dec": "4267",
+    "name": "LVM_GETINSERTMARKCOLOR"
+  },
+  {
+    "hex": "10ad",
+    "dec": "4269",
+    "name": "LVM_SETINFOTIP"
+  },
+  {
+    "hex": "10ae",
+    "dec": "4270",
+    "name": "LVM_GETSELECTEDCOLUMN"
+  },
+  {
+    "hex": "10af",
+    "dec": "4271",
+    "name": "LVM_ISGROUPVIEWENABLED"
+  },
+  {
+    "hex": "10b0",
+    "dec": "4272",
+    "name": "LVM_GETOUTLINECOLOR"
+  },
+  {
+    "hex": "10b1",
+    "dec": "4273",
+    "name": "LVM_SETOUTLINECOLOR"
+  },
+  {
+    "hex": "10b3",
+    "dec": "4275",
+    "name": "LVM_CANCELEDITLABEL"
+  },
+  {
+    "hex": "10b4",
+    "dec": "4276",
+    "name": "LVM_MAPINDEXTOID"
+  },
+  {
+    "hex": "10b5",
+    "dec": "4277",
+    "name": "LVM_MAPIDTOINDEX"
+  },
+  {
+    "hex": "10b6",
+    "dec": "4278",
+    "name": "LVM_ISITEMVISIBLE"
+  },
+  {
+    "hex": "2000",
+    "dec": "8192",
+    "name": "OCM__BASE"
+  },
+  {
+    "hex": "2005",
+    "dec": "8197",
+    "name": "LVM_SETUNICODEFORMAT"
+  },
+  {
+    "hex": "2006",
+    "dec": "8198",
+    "name": "LVM_GETUNICODEFORMAT"
+  },
+  {
+    "hex": "2019",
+    "dec": "8217",
+    "name": "OCM_CTLCOLOR"
+  },
+  {
+    "hex": "202b",
+    "dec": "8235",
+    "name": "OCM_DRAWITEM"
+  },
+  {
+    "hex": "202c",
+    "dec": "8236",
+    "name": "OCM_MEASUREITEM"
+  },
+  {
+    "hex": "202d",
+    "dec": "8237",
+    "name": "OCM_DELETEITEM"
+  },
+  {
+    "hex": "202e",
+    "dec": "8238",
+    "name": "OCM_VKEYTOITEM"
+  },
+  {
+    "hex": "202f",
+    "dec": "8239",
+    "name": "OCM_CHARTOITEM"
+  },
+  {
+    "hex": "2039",
+    "dec": "8249",
+    "name": "OCM_COMPAREITEM"
+  },
+  {
+    "hex": "204e",
+    "dec": "8270",
+    "name": "OCM_NOTIFY"
+  },
+  {
+    "hex": "2111",
+    "dec": "8465",
+    "name": "OCM_COMMAND"
+  },
+  {
+    "hex": "2114",
+    "dec": "8468",
+    "name": "OCM_HSCROLL"
+  },
+  {
+    "hex": "2115",
+    "dec": "8469",
+    "name": "OCM_VSCROLL"
+  },
+  {
+    "hex": "2132",
+    "dec": "8498",
+    "name": "OCM_CTLCOLORMSGBOX"
+  },
+  {
+    "hex": "2133",
+    "dec": "8499",
+    "name": "OCM_CTLCOLOREDIT"
+  },
+  {
+    "hex": "2134",
+    "dec": "8500",
+    "name": "OCM_CTLCOLORLISTBOX"
+  },
+  {
+    "hex": "2135",
+    "dec": "8501",
+    "name": "OCM_CTLCOLORBTN"
+  },
+  {
+    "hex": "2136",
+    "dec": "8502",
+    "name": "OCM_CTLCOLORDLG"
+  },
+  {
+    "hex": "2137",
+    "dec": "8503",
+    "name": "OCM_CTLCOLORSCROLLBAR"
+  },
+  {
+    "hex": "2138",
+    "dec": "8504",
+    "name": "OCM_CTLCOLORSTATIC"
+  },
+  {
+    "hex": "2210",
+    "dec": "8720",
+    "name": "OCM_PARENTNOTIFY"
+  },
+  {
+    "hex": "8000",
+    "dec": "32768",
+    "name": "WM_APP"
+  },
+  {
+    "hex": "cccd",
+    "dec": "52429",
+    "name": "WM_RASDIALEVENT"
+  },
+  {
+    "hex": "cccd",
+    "dec": "52429",
+    "name": "WM_RASDIALEVENT"
+  }
+]
